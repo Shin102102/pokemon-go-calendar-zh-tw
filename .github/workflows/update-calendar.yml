@@ -1,0 +1,49 @@
+name: 更新繁體中文行事曆
+
+on:
+  workflow_dispatch:
+
+  schedule:
+    # 每天 UTC 01:17 執行，即台灣時間約上午 09:17
+    # 避開整點可降低排程延遲的機率
+    - cron: "17 1 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  update-calendar:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 下載專案
+        uses: actions/checkout@v6
+
+      - name: 設定 Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+
+      - name: 產生繁體中文行事曆
+        run: python translate_calendar.py
+
+      - name: 檢查 iCal 是否有效
+        run: |
+          test -s docs/calendar-zh-TW.ics
+          grep -q "BEGIN:VCALENDAR" docs/calendar-zh-TW.ics
+          grep -q "BEGIN:VEVENT" docs/calendar-zh-TW.ics
+          grep -q "END:VCALENDAR" docs/calendar-zh-TW.ics
+
+      - name: 儲存更新結果
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add docs/calendar-zh-TW.ics
+
+          if git diff --cached --quiet; then
+            echo "行事曆內容沒有變化，不需提交。"
+          else
+            git commit -m "自動更新繁體中文行事曆"
+            git push
+          fi
