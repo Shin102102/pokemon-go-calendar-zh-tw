@@ -6,8 +6,23 @@ import urllib.request
 from pathlib import Path
 
 
-# GO Calendar 已經分類好的行事曆
-# 左側是輸出的中文檔名，右側是來源檔名
+# =========================================================
+# 基本設定
+# =========================================================
+
+TAIPEI_TIMEZONE = "Asia/Taipei"
+
+SOURCE_BASE_URL = (
+    "https://github.com/othyn/go-calendar/"
+    "releases/latest/download"
+)
+
+OUTPUT_DIR = Path("docs")
+TERMS_FILE = Path("translations.json")
+
+
+# 左邊：輸出的中文檔名
+# 右邊：GO Calendar 原始檔名
 CALENDARS = {
     "all": "gocal.ics",
     "choose-your-path": "gocal__choose_your_path.ics",
@@ -25,16 +40,7 @@ CALENDARS = {
     "season": "gocal__season.ics",
 }
 
-SOURCE_BASE_URL = (
-    "https://github.com/othyn/go-calendar/"
-    "releases/latest/download"
-)
 
-OUTPUT_DIR = Path("docs")
-TERMS_FILE = Path("translations.json")
-
-
-# 各分類的繁體中文行事曆名稱
 CALENDAR_NAMES = {
     "all": "Pokémon GO 全部活動",
     "choose-your-path": "Pokémon GO 選擇你的道路",
@@ -53,17 +59,41 @@ CALENDAR_NAMES = {
 }
 
 
+# 台灣時區定義。
+# Asia/Taipei 目前是 UTC+8，沒有日光節約時間。
+TAIPEI_VTIMEZONE_LINES = [
+    "BEGIN:VTIMEZONE",
+    "TZID:Asia/Taipei",
+    "X-LIC-LOCATION:Asia/Taipei",
+    "BEGIN:STANDARD",
+    "TZOFFSETFROM:+0800",
+    "TZOFFSETTO:+0800",
+    "TZNAME:UTC+08",
+    "DTSTART:19700101T000000",
+    "END:STANDARD",
+    "END:VTIMEZONE",
+]
+
+
+# =========================================================
+# 下載與檔案處理
+# =========================================================
+
 def download_calendar(url: str) -> str:
-    """下載指定英文 iCal。"""
+    """下載 GO Calendar 英文 iCal。"""
+
     request = urllib.request.Request(
         url,
         headers={
-            "User-Agent": "pokemon-go-calendar-zh-tw/2.0",
+            "User-Agent": "pokemon-go-calendar-zh-tw/3.0",
             "Accept": "text/calendar,text/plain,*/*",
         },
     )
 
-    with urllib.request.urlopen(request, timeout=60) as response:
+    with urllib.request.urlopen(
+        request,
+        timeout=60,
+    ) as response:
         data = response.read()
 
     return data.decode("utf-8-sig")
@@ -71,15 +101,21 @@ def download_calendar(url: str) -> str:
 
 def unfold_ical_lines(content: str) -> list[str]:
     """
-    還原 iCal 折行。
+    還原 iCalendar 折行。
 
-    iCal 長行可能會在下一行以空白或 Tab 開頭接續。
+    iCalendar 長文字會在下一行以空白或 Tab 開頭接續。
     """
-    normalized = content.replace("\r\n", "\n").replace("\r", "\n")
-    lines = normalized.split("\n")
+
+    normalized = (
+        content
+        .replace("\r\n", "\n")
+        .replace("\r", "\n")
+    )
+
+    source_lines = normalized.split("\n")
     unfolded: list[str] = []
 
-    for line in lines:
+    for line in source_lines:
         if line.startswith((" ", "\t")) and unfolded:
             unfolded[-1] += line[1:]
         else:
@@ -88,45 +124,63 @@ def unfold_ical_lines(content: str) -> list[str]:
     return unfolded
 
 
-def fold_ical_line(line: str, limit: int = 73) -> list[str]:
+def fold_ical_line(
+    line: str,
+    limit: int = 73,
+) -> list[str]:
     """
-    將過長的 iCal 行重新折行。
+    重新折疊過長的 iCalendar 行。
 
-    以 UTF-8 位元組計算，避免中文字被截斷。
+    依 UTF-8 位元組長度判斷，避免切斷中文字元。
     """
+
     if len(line.encode("utf-8")) <= limit:
         return [line]
 
     result: list[str] = []
     current = ""
+    first_line = True
 
     for char in line:
-        continuation_prefix = "" if not result else " "
+        prefix = "" if first_line else " "
+        candidate = prefix + current + char
 
-        candidate = continuation_prefix + current + char
-
-        if len(candidate.encode("utf-8")) > limit and current:
-            result.append(continuation_prefix + current)
+        if (
+            current
+            and len(candidate.encode("utf-8")) > limit
+        ):
+            result.append(prefix + current)
             current = char
+            first_line = False
         else:
             current += char
 
     if current:
-        continuation_prefix = "" if not result else " "
-        result.append(continuation_prefix + current)
+        prefix = "" if first_line else " "
+        result.append(prefix + current)
 
     return result
 
 
-def load_translations() -> dict[str, str]:
-    """讀取 translations.json 固定翻譯詞庫。"""
-    if not TERMS_FILE.exists():
-        raise FileNotFoundError(f"找不到翻譯詞庫：{TERMS_FILE}")
+# =========================================================
+# 固定詞庫翻譯
+# =========================================================
 
-    with TERMS_FILE.open("r", encoding="utf-8") as file:
+def load_translations() -> dict[str, str]:
+    """讀取 translations.json。"""
+
+    if not TERMS_FILE.exists():
+        raise FileNotFoundError(
+            f"找不到翻譯詞庫：{TERMS_FILE}"
+        )
+
+    with TERMS_FILE.open(
+        "r",
+        encoding="utf-8",
+    ) as file:
         translations = json.load(file)
 
-    # 長片語先處理，避免短詞先取代
+    # 長片語優先翻譯，避免短詞先取代。
     return dict(
         sorted(
             translations.items(),
@@ -136,9 +190,17 @@ def load_translations() -> dict[str, str]:
     )
 
 
-def replace_term(text: str, english: str, chinese: str) -> str:
-    """依英文詞彙特性進行安全取代。"""
-    if re.fullmatch(r"[A-Za-z0-9'’.\-♀♂:]+", english):
+def replace_term(
+    text: str,
+    english: str,
+    chinese: str,
+) -> str:
+    """安全取代單一英文詞彙。"""
+
+    if re.fullmatch(
+        r"[A-Za-z0-9'’.\-♀♂:]+",
+        english,
+    ):
         pattern = (
             rf"(?<![A-Za-z0-9])"
             rf"{re.escape(english)}"
@@ -165,6 +227,7 @@ def translate_text(
     translations: dict[str, str],
 ) -> str:
     """使用固定詞庫翻譯文字。"""
+
     translated = text
 
     for english, chinese in translations.items():
@@ -174,14 +237,23 @@ def translate_text(
             chinese,
         )
 
-    # 清理翻譯後多餘空格
-    translated = re.sub(r" {2,}", " ", translated)
+    translated = re.sub(
+        r" {2,}",
+        " ",
+        translated,
+    )
+
     translated = re.sub(
         r" +([，。：；！？）])",
         r"\1",
         translated,
     )
-    translated = re.sub(r"（ +", "（", translated)
+
+    translated = re.sub(
+        r"（ +",
+        "（",
+        translated,
+    )
 
     return translated.strip()
 
@@ -191,12 +263,8 @@ def translate_property(
     property_name: str,
     translations: dict[str, str],
 ) -> str:
-    """
-    翻譯指定 iCal 欄位，並保留欄位參數。
+    """翻譯 SUMMARY、LOCATION、CATEGORIES 等欄位。"""
 
-    例如：
-    SUMMARY;LANGUAGE=en:Kyogre Raid Hour
-    """
     upper_line = line.upper()
 
     if not (
@@ -209,6 +277,7 @@ def translate_property(
         return line
 
     prefix, value = line.split(":", 1)
+
     translated_value = translate_text(
         value,
         translations,
@@ -217,69 +286,207 @@ def translate_property(
     return f"{prefix}:{translated_value}"
 
 
-def set_calendar_name(
+# =========================================================
+# 時區修正
+# =========================================================
+
+def add_taipei_timezone_to_datetime(
     line: str,
-    calendar_name: str,
 ) -> str:
-    """替換日曆顯示名稱。"""
+    """
+    將沒有時區的 DTSTART、DTEND、RECURRENCE-ID
+    指定為 Asia/Taipei。
+
+    範例：
+
+    原始：
+    DTSTART:20260806T180000
+
+    修改後：
+    DTSTART;TZID=Asia/Taipei:20260806T180000
+
+    不修改：
+    1. 全天活動 VALUE=DATE
+    2. 已經有 TZID 的時間
+    3. 結尾有 Z 的 UTC 時間
+    """
+
     upper_line = line.upper()
 
-    if upper_line.startswith("X-WR-CALNAME:"):
-        return f"X-WR-CALNAME:{calendar_name}"
+    supported_properties = (
+        "DTSTART",
+        "DTEND",
+        "RECURRENCE-ID",
+    )
 
-    if upper_line.startswith("NAME:"):
-        return f"NAME:{calendar_name}"
+    property_name = next(
+        (
+            name
+            for name in supported_properties
+            if (
+                upper_line.startswith(f"{name}:")
+                or upper_line.startswith(f"{name};")
+            )
+        ),
+        None,
+    )
 
-    return line
+    if property_name is None:
+        return line
 
+    # 全天活動只有日期，沒有時區問題。
+    if "VALUE=DATE" in upper_line:
+        return line
+
+    # 已經指定時區，不重複修改。
+    if "TZID=" in upper_line:
+        return line
+
+    if ":" not in line:
+        return line
+
+    property_part, value = line.split(":", 1)
+
+    # UTC 時間以 Z 結尾，保留原樣。
+    if value.upper().endswith("Z"):
+        return line
+
+    # 僅處理完整的日期時間，例如 20260806T180000。
+    if not re.fullmatch(
+        r"\d{8}T\d{6}",
+        value,
+    ):
+        return line
+
+    # 保留原本其他參數，只加入 TZID。
+    if ";" in property_part:
+        return (
+            f"{property_part};"
+            f"TZID={TAIPEI_TIMEZONE}:"
+            f"{value}"
+        )
+
+    return (
+        f"{property_name};"
+        f"TZID={TAIPEI_TIMEZONE}:"
+        f"{value}"
+    )
+
+
+# =========================================================
+# 單一行事曆轉換
+# =========================================================
 
 def translate_calendar(
     content: str,
     calendar_key: str,
     translations: dict[str, str],
 ) -> str:
-    """翻譯單一分類行事曆。"""
-    lines = unfold_ical_lines(content)
-    translated_lines: list[str] = []
+    """翻譯並修正單一分類行事曆。"""
+
+    source_lines = unfold_ical_lines(content)
 
     calendar_name = CALENDAR_NAMES.get(
         calendar_key,
         "Pokémon GO 活動",
     )
 
-    has_calendar_name = False
+    output_lines: list[str] = []
 
-    for line in lines:
+    inserted_calendar_settings = False
+    inserted_timezone = False
+
+    inside_existing_vtimezone = False
+
+    for line in source_lines:
         upper_line = line.upper()
 
-        if upper_line.startswith("X-WR-CALNAME:"):
-            has_calendar_name = True
+        # 若來源本身已有 VTIMEZONE，先略過。
+        # 我們後面會加入統一的 Asia/Taipei 定義。
+        if upper_line == "BEGIN:VTIMEZONE":
+            inside_existing_vtimezone = True
+            continue
 
-        line = set_calendar_name(
-            line,
-            calendar_name,
-        )
+        if inside_existing_vtimezone:
+            if upper_line == "END:VTIMEZONE":
+                inside_existing_vtimezone = False
+            continue
 
+        # 移除來源中可能重複的日曆名稱。
+        if (
+            upper_line.startswith("X-WR-CALNAME:")
+            or upper_line.startswith("NAME:")
+            or upper_line.startswith("X-WR-TIMEZONE:")
+        ):
+            continue
+
+        # 在 VERSION 後加入唯一的中文日曆名稱與預設時區。
+        if upper_line.startswith("VERSION:"):
+            output_lines.extend(
+                fold_ical_line(line)
+            )
+
+            output_lines.extend(
+                fold_ical_line(
+                    f"NAME:{calendar_name}"
+                )
+            )
+
+            output_lines.extend(
+                fold_ical_line(
+                    f"X-WR-CALNAME:{calendar_name}"
+                )
+            )
+
+            output_lines.extend(
+                fold_ical_line(
+                    "X-WR-TIMEZONE:Asia/Taipei"
+                )
+            )
+
+            inserted_calendar_settings = True
+            continue
+
+        # 在第一個 VEVENT 前加入 VTIMEZONE。
+        if (
+            upper_line == "BEGIN:VEVENT"
+            and not inserted_timezone
+        ):
+            for timezone_line in TAIPEI_VTIMEZONE_LINES:
+                output_lines.extend(
+                    fold_ical_line(timezone_line)
+                )
+
+            inserted_timezone = True
+
+        # 將浮動時間指定為台灣時間。
+        line = add_taipei_timezone_to_datetime(line)
+
+        # 翻譯活動標題。
         line = translate_property(
             line,
             "SUMMARY",
             translations,
         )
 
+        # 翻譯地點。
         line = translate_property(
             line,
             "LOCATION",
             translations,
         )
 
+        # 翻譯分類。
         line = translate_property(
             line,
             "CATEGORIES",
             translations,
         )
 
-        # 暫時不翻譯 DESCRIPTION，避免網址或 HTML 被改壞。
-        # 確定運作正常後，可解除下一段註解。
+        # DESCRIPTION 暫時保留英文。
+        # 固定詞庫不適合翻譯整段說明和網址。
+        #
+        # 若未來想嘗試翻譯，可解除下方註解：
         #
         # line = translate_property(
         #     line,
@@ -287,22 +494,17 @@ def translate_calendar(
         #     translations,
         # )
 
-        # 原始檔若沒有 X-WR-CALNAME，
-        # 就在 VERSION 後加入中文名稱
-        translated_lines.extend(fold_ical_line(line))
+        output_lines.extend(
+            fold_ical_line(line)
+        )
 
-        if (
-            not has_calendar_name
-            and upper_line.startswith("VERSION:")
-        ):
-            translated_lines.extend(
-                fold_ical_line(
-                    f"X-WR-CALNAME:{calendar_name}"
-                )
-            )
-            has_calendar_name = True
+    # 防止少數來源缺少 VERSION。
+    if not inserted_calendar_settings:
+        raise ValueError(
+            "來源 iCal 找不到 VERSION 欄位"
+        )
 
-    output = "\r\n".join(translated_lines)
+    output = "\r\n".join(output_lines)
 
     if not output.endswith("\r\n"):
         output += "\r\n"
@@ -310,12 +512,17 @@ def translate_calendar(
     return output
 
 
+# =========================================================
+# 建立首頁
+# =========================================================
+
 def create_index_page() -> None:
-    """建立簡單的中文訂閱連結頁面。"""
-    rows = []
+    """建立 GitHub Pages 中文訂閱首頁。"""
+
+    rows: list[str] = []
 
     for calendar_key in CALENDARS:
-        name = CALENDAR_NAMES.get(
+        calendar_name = CALENDAR_NAMES.get(
             calendar_key,
             calendar_key,
         )
@@ -325,10 +532,12 @@ def create_index_page() -> None:
         rows.append(
             f"""
             <li>
-                <strong>{name}</strong><br>
-                <a href="{filename}">
-                    下載或訂閱 {filename}
-                </a>
+                <strong>{calendar_name}</strong>
+                <div>
+                    <a href="{filename}">
+                        {filename}
+                    </a>
+                </div>
             </li>
             """
         )
@@ -342,9 +551,10 @@ def create_index_page() -> None:
         content="width=device-width, initial-scale=1"
     >
     <title>Pokémon GO 繁體中文行事曆</title>
+
     <style>
         body {{
-            max-width: 760px;
+            max-width: 800px;
             margin: 40px auto;
             padding: 0 20px;
             font-family:
@@ -361,7 +571,7 @@ def create_index_page() -> None:
         }}
 
         li {{
-            margin-bottom: 18px;
+            margin-bottom: 20px;
         }}
 
         a {{
@@ -370,19 +580,21 @@ def create_index_page() -> None:
 
         .notice {{
             padding: 16px;
-            background: #f4f4f4;
-            border-radius: 8px;
+            border-radius: 10px;
+            background: #f4f6f8;
         }}
     </style>
 </head>
+
 <body>
     <h1>Pokémon GO 繁體中文行事曆</h1>
 
-    <p class="notice">
-        請複製下方 .ics 網址，
-        使用 Google 日曆、Apple 行事曆或 Outlook
-        的「透過網址訂閱」功能加入。
-    </p>
+    <div class="notice">
+        本版本已將沒有時區的活動時間固定為
+        Asia/Taipei 台灣時間。
+        請複製 .ics 網址，
+        使用行事曆的「透過網址訂閱」功能加入。
+    </div>
 
     <ul>
         {''.join(rows)}
@@ -392,15 +604,22 @@ def create_index_page() -> None:
 """
 
     index_file = OUTPUT_DIR / "index.html"
+
     index_file.write_text(
         html,
         encoding="utf-8",
     )
 
 
+# =========================================================
+# 產生全部分類日曆
+# =========================================================
+
 def build_calendars() -> None:
-    """下載、翻譯並輸出所有分類行事曆。"""
+    """下載、翻譯、修正並輸出全部分類行事曆。"""
+
     translations = load_translations()
+
     OUTPUT_DIR.mkdir(
         parents=True,
         exist_ok=True,
@@ -418,12 +637,9 @@ def build_calendars() -> None:
             OUTPUT_DIR / f"{calendar_key}.ics"
         )
 
-        print(
-            f"正在處理：{calendar_key}"
-        )
-        print(
-            f"來源：{source_url}"
-        )
+        print("=" * 60)
+        print(f"正在處理：{calendar_key}")
+        print(f"來源網址：{source_url}")
 
         try:
             source_calendar = download_calendar(
@@ -442,25 +658,44 @@ def build_calendars() -> None:
                 newline="",
             )
 
-            print(
-                f"完成：{output_file}"
+            # 基本檢查。
+            generated_content = output_file.read_text(
+                encoding="utf-8",
             )
+
+            if "BEGIN:VCALENDAR" not in generated_content:
+                raise ValueError(
+                    "輸出缺少 BEGIN:VCALENDAR"
+                )
+
+            if "END:VCALENDAR" not in generated_content:
+                raise ValueError(
+                    "輸出缺少 END:VCALENDAR"
+                )
+
+            print(f"完成：{output_file}")
             print(
-                f"大小：{output_file.stat().st_size} bytes"
+                f"檔案大小："
+                f"{output_file.stat().st_size} bytes"
             )
 
             successful += 1
 
         except Exception as error:
             print(
-                f"失敗：{calendar_key}：{error}"
+                f"失敗：{calendar_key}"
             )
+            print(
+                f"錯誤：{error}"
+            )
+
             failed.append(calendar_key)
 
     create_index_page()
 
+    print("=" * 60)
     print(
-        f"成功產生 {successful} 個行事曆。"
+        f"成功產生 {successful} 個分類行事曆。"
     )
 
     if failed:
