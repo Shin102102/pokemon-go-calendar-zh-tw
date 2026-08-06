@@ -1,0 +1,99 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+X-WR-CALNAME:Pokémon GO 一般活動
+PRODID:spatie/icalendar-generator
+NAME:Pokémon GO 一般活動
+X-WR-CALNAME:Pokémon GO 一般活動
+DESCRIPTION:All Pokémon GO Event events\, in your local time\, auto-upda
+ ted and sourced from Leek Duck.
+X-WR-CALDESC:All Pokémon GO Event events\, in your local time\, auto-upd
+ ated and sourced from Leek Duck.
+REFRESH-INTERVAL;VALUE=DURATION:PT1440M
+X-PUBLISHED-TTL:PT1440M
+BEGIN:VEVENT
+UID:fire-and-ice-hatch-day-2026
+DTSTAMP:20260806T025500Z
+SUMMARY:[E] Fire and Ice 孵化日
+DESCRIPTION:Starts at 11:00\, ends at 17:00.\n\nhttps://leekduck.com/even
+ ts/fire-and-ice-hatch-day-2026/
+URL:https://leekduck.com/events/fire-and-ice-hatch-day-2026/
+IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/article-images
+ /2026/2026-08-08-fire-and-ice-hatch-day-2026/fire-and-ice-hatch-day-2026
+ .jpg
+DTSTART:20260808T110000
+DTEND:20260808T170000
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:[E] Fire and Ice Hatch Day
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:summer-marathon-2026
+DTSTAMP:20260806T025500Z
+SUMMARY:[E] Summer Marathon: Arctic Embers
+DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/even
+ ts/summer-marathon-2026/
+URL:https://leekduck.com/events/summer-marathon-2026/
+IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/article-images
+ /2026/2026-08-04-summer-marathon-2026/summer-marathon-2026.jpg
+DTSTART;VALUE=DATE:20260804
+DTEND;VALUE=DATE:20260811
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:[E] Summer Marathon: Arctic Embers
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:water-festival-2026
+DTSTAMP:20260806T025500Z
+SUMMARY:[E] 究極獎勵解鎖: Water Festival
+DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/even
+ ts/water-festival-2026/
+URL:https://leekduck.com/events/water-festival-2026/
+IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/article-images
+ /2026/2026-08-18-water-festival-2026/water-festival-2026.jpg?v2
+DTSTART;VALUE=DATE:20260818
+DTEND;VALUE=DATE:20260825
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:[E] Ultra Unlock: Water Festival
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pokemon-xp-2026-worlds
+DTSTAMP:20260806T025500Z
+SUMMARY:[E] PokémonXP &amp\; 2026 Worlds
+DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/even
+ ts/pokemon-xp-2026-worlds/
+URL:https://leekduck.com/events/pokemon-xp-2026-worlds/
+IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/article-images
+ /2026/2026-08-25-pokemon-xp-2026-worlds/pokemon-xp-2026-worlds.jpg
+DTSTART;VALUE=DATE:20260825
+DTEND;VALUE=DATE:20260831
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:[E] PokémonXP &amp\; 2026 Worlds
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:lego-pokemon-go-2026
+DTSTAMP:20260806T025500Z
+SUMMARY:[E] LEGO Stores and Pokémon GO
+DESCRIPTION:Starts at 10:00\, ends at 23:59.\n\nhttps://leekduck.com/even
+ ts/lego-pokemon-go-2026/
+URL:https://leekduck.com/events/lego-pokemon-go-2026/
+IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/article-images
+ /2026/2026-08-03-lego-pokemon-go-2026/lego-stores-pokemon-go.jpg
+DTSTART;VALUE=DATE:20260803
+DTEND;VALUE=DATE:20261001
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:[E] LEGO Stores and Pokémon GO
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+END:VCALENDAR

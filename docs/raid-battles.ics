@@ -1,0 +1,173 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+X-WR-CALNAME:Pokémon GO 團體戰
+PRODID:spatie/icalendar-generator
+NAME:Pokémon GO 團體戰
+X-WR-CALNAME:Pokémon GO 團體戰
+DESCRIPTION:All Pokémon GO Raid Battles events\, in your local time\, au
+ to-updated and sourced from Leek Duck.
+X-WR-CALDESC:All Pokémon GO Raid Battles events\, in your local time\, a
+ uto-updated and sourced from Leek Duck.
+REFRESH-INTERVAL;VALUE=DURATION:PT1440M
+X-PUBLISHED-TTL:PT1440M
+BEGIN:VEVENT
+UID:mega-blaziken-in-mega-raids-august-2026
+DTSTAMP:20260806T025500Z
+SUMMARY:[RB] 超級 Blaziken in 超級 團體戰
+DESCRIPTION:Starts at 06:00\, ends at 22:00.\n\nhttps://leekduck.com/even
+ ts/mega-blaziken-in-mega-raids-august-2026/
+URL:https://leekduck.com/events/mega-blaziken-in-mega-raids-august-2026/
+IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/mega-default.j
+ pg
+DTSTART;VALUE=DATE:20260805
+DTEND;VALUE=DATE:20260812
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:[RB] Mega Blaziken in Mega Raids
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:uxie-mesprit-azelf-in-5-star-raid-battles-august-2026
+DTSTAMP:20260806T025500Z
+SUMMARY:[RB] 由克希\, 艾姆利多\, and 亞克諾姆 in 5-star 團體
+ 戰
+DESCRIPTION:Starts at 06:00\, ends at 22:00.\n\nhttps://leekduck.com/even
+ ts/uxie-mesprit-azelf-in-5-star-raid-battles-august-2026/
+URL:https://leekduck.com/events/uxie-mesprit-azelf-in-5-star-raid-battles
+ -august-2026/
+IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/events-default
+ -img.jpg
+DTSTART;VALUE=DATE:20260805
+DTEND;VALUE=DATE:20260812
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:[RB] Uxie\, Mesprit\, and Azelf in 5-star Raid Battles
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:groudon-in-5-star-raid-battles-august-2026
+DTSTAMP:20260806T025500Z
+SUMMARY:[RB] 固拉多 in 5-star 團體戰
+DESCRIPTION:Starts at 06:00\, ends at 22:00.\n\nhttps://leekduck.com/even
+ ts/groudon-in-5-star-raid-battles-august-2026/
+URL:https://leekduck.com/events/groudon-in-5-star-raid-battles-august-202
+ 6/
+IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/events-default
+ -img.jpg
+DTSTART;VALUE=DATE:20260812
+DTEND;VALUE=DATE:20260819
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:[RB] Groudon in 5-star Raid Battles
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:mega-garchomp-in-mega-raids-august-2026
+DTSTAMP:20260806T025500Z
+SUMMARY:[RB] 超級 Garchomp in 超級 團體戰
+DESCRIPTION:Starts at 06:00\, ends at 22:00.\n\nhttps://leekduck.com/even
+ ts/mega-garchomp-in-mega-raids-august-2026/
+URL:https://leekduck.com/events/mega-garchomp-in-mega-raids-august-2026/
+IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/mega-default.j
+ pg
+DTSTART;VALUE=DATE:20260812
+DTEND;VALUE=DATE:20260819
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:[RB] Mega Garchomp in Mega Raids
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:lunala-in-5-star-raid-battles-august-2026
+DTSTAMP:20260806T025500Z
+SUMMARY:[RB] 露奈雅拉 in 5-star 團體戰
+DESCRIPTION:Starts at 06:00\, ends at 22:00.\n\nhttps://leekduck.com/even
+ ts/lunala-in-5-star-raid-battles-august-2026/
+URL:https://leekduck.com/events/lunala-in-5-star-raid-battles-august-2026
+ /
+IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/events-default
+ -img.jpg
+DTSTART;VALUE=DATE:20260819
+DTEND;VALUE=DATE:20260826
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:[RB] Lunala in 5-star Raid Battles
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:mega-swampert-in-mega-raids-august-2026
+DTSTAMP:20260806T025500Z
+SUMMARY:[RB] 超級 Swampert in 超級 團體戰
+DESCRIPTION:Starts at 06:00\, ends at 22:00.\n\nhttps://leekduck.com/even
+ ts/mega-swampert-in-mega-raids-august-2026/
+URL:https://leekduck.com/events/mega-swampert-in-mega-raids-august-2026/
+IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/mega-default.j
+ pg
+DTSTART;VALUE=DATE:20260819
+DTEND;VALUE=DATE:20260826
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:[RB] Mega Swampert in Mega Raids
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:shadow-giratina-altered-in-shadow-raids-august-2026
+DTSTAMP:20260806T025500Z
+SUMMARY:[RB] 暗影 騎拉帝納 (Altered Forme) in 暗影 團體戰
+DESCRIPTION:Starts at 06:00\, ends at 22:00.\n\nhttps://leekduck.com/even
+ ts/shadow-giratina-altered-in-shadow-raids-august-2026/
+URL:https://leekduck.com/events/shadow-giratina-altered-in-shadow-raids-a
+ ugust-2026/
+IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/events-default
+ -img.jpg
+DTSTART;VALUE=DATE:20260805
+DTEND;VALUE=DATE:20260909
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:[RB] Shadow Giratina (Altered Forme) in Shadow Raids
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:mega-gyarados-in-mega-raids-august-2026
+DTSTAMP:20260806T025500Z
+SUMMARY:[RB] 超級 暴鯉龍 in 超級 團體戰
+DESCRIPTION:Starts at 06:00\, ends at 22:00.\n\nhttps://leekduck.com/even
+ ts/mega-gyarados-in-mega-raids-august-2026/
+URL:https://leekduck.com/events/mega-gyarados-in-mega-raids-august-2026/
+IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/mega-default.j
+ pg
+DTSTART;VALUE=DATE:20260826
+DTEND;VALUE=DATE:20260909
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:[RB] Mega Gyarados in Mega Raids
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:regirock-regice-registeel-in-5-star-raid-battles-august-2026
+DTSTAMP:20260806T025500Z
+SUMMARY:[RB] 雷吉洛克\, 雷吉艾斯\, and 雷吉斯奇魯 in 5-star 
+ 團體戰
+DESCRIPTION:Starts at 06:00\, ends at 22:00.\n\nhttps://leekduck.com/even
+ ts/regirock-regice-registeel-in-5-star-raid-battles-august-2026/
+URL:https://leekduck.com/events/regirock-regice-registeel-in-5-star-raid-
+ battles-august-2026/
+IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/events-default
+ -img.jpg
+DTSTART;VALUE=DATE:20260826
+DTEND;VALUE=DATE:20260909
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:[RB] Regirock\, Regice\, and Registeel in 5-star Raid Battles
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+END:VCALENDAR
