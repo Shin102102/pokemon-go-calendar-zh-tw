@@ -5,7 +5,7 @@ on:
 
   schedule:
     # UTC 01:17
-    # 台灣時間每天上午約 09:17
+    # 約為台灣時間每天上午 09:17
     - cron: "17 1 * * *"
 
 permissions:
@@ -28,31 +28,66 @@ jobs:
         run: python translate_calendar.py
 
       - name: 檢查完整行事曆
+        shell: bash
         run: |
+          set -e
+
           test -s docs/all.ics
           grep -q "BEGIN:VCALENDAR" docs/all.ics
           grep -q "END:VCALENDAR" docs/all.ics
+          grep -q "X-WR-TIMEZONE:Asia/Taipei" docs/all.ics
+          grep -q "BEGIN:VTIMEZONE" docs/all.ics
           grep -q "TZID:Asia/Taipei" docs/all.ics
 
       - name: 檢查聚焦時刻的台灣時區
+        shell: bash
         run: |
-          test -s docs/spotlight-hour.ics
-          grep -q "BEGIN:VEVENT" docs/spotlight-hour.ics
-          grep -q "DTSTART;TZID=Asia/Taipei" docs/spotlight-hour.ics
-          grep -q "DTEND;TZID=Asia/Taipei" docs/spotlight-hour.ics
+          set -e
 
-      - name: 檢查其他主要分類
+          test -s docs/spotlight-hour.ics
+          grep -q "X-WR-TIMEZONE:Asia/Taipei" docs/spotlight-hour.ics
+          grep -q "TZID:Asia/Taipei" docs/spotlight-hour.ics
+
+          if grep -q "^DTSTART:[0-9]\{8\}T[0-9]\{6\}$" docs/spotlight-hour.ics; then
+            echo "仍發現沒有 TZID 的 DTSTART"
+            exit 1
+          fi
+
+          if grep -q "^DTEND:[0-9]\{8\}T[0-9]\{6\}$" docs/spotlight-hour.ics; then
+            echo "仍發現沒有 TZID 的 DTEND"
+            exit 1
+          fi
+
+      - name: 檢查分類檔案
+        shell: bash
         run: |
+          set -e
+
+          test -s docs/index.html
           test -s docs/community-day.ics
-          test -s docs/raid-hour.ics
-          test -s docs/raid-day.ics
+          test -s docs/event.ics
+          test -s docs/go-battle-league.ics
+          test -s docs/go-pass.ics
+          test -s docs/max-mondays.ics
+          test -s docs/pokemon-go-fest.ics
+          test -s docs/spotlight-hour.ics
           test -s docs/raid-battles.ics
+          test -s docs/raid-day.ics
+          test -s docs/raid-hour.ics
           test -s docs/research.ics
           test -s docs/season.ics
-          test -s docs/index.html
+
+      - name: 顯示聚焦時刻時間供檢查
+        shell: bash
+        run: |
+          echo "聚焦時刻時間欄位："
+          grep -E "^(SUMMARY|DTSTART|DTEND)" docs/spotlight-hour.ics | head -15
 
       - name: 儲存更新結果
+        shell: bash
         run: |
+          set -e
+
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
