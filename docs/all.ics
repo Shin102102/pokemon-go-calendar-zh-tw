@@ -4,8 +4,8 @@ NAME:Pokémon GO 全部活動
 X-WR-CALNAME:Pokémon GO 全部活動
 X-WR-TIMEZONE:Asia/Taipei
 PRODID:spatie/icalendar-generator
-DESCRIPTION:All Pokémon GO events\, in your local time\, auto-updated an
- d sourced from Leek Duck.
+DESCRIPTION:All Pokémon GO 活動\, in your 當地時間 time\, auto-upd
+ ated and sourced from Leek Duck.
 X-WR-CALDESC:All Pokémon GO events\, in your local time\, auto-updated a
  nd sourced from Leek Duck.
 REFRESH-INTERVAL;VALUE=DURATION:PT1440M
@@ -16,7 +16,7 @@ X-LIC-LOCATION:Asia/Taipei
 BEGIN:STANDARD
 TZOFFSETFROM:+0800
 TZOFFSETTO:+0800
-TZNAME:UTC+08
+TZNAME:CST
 DTSTART:19700101T000000
 END:STANDARD
 END:VTIMEZONE
@@ -32,7 +32,8 @@ DTSTART;TZID=Asia/Taipei:20260805T180000
 DTEND;TZID=Asia/Taipei:20260805T190000
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:[RH] Uxie\, Mesprit\, and Azelf Raid Hour
+DESCRIPTION:[RH] 由克希\, 艾姆利多\, and 亞克諾姆 團體戰約
+ 會
 TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
@@ -49,7 +50,7 @@ DTSTART;TZID=Asia/Taipei:20260806T180000
 DTEND;TZID=Asia/Taipei:20260806T190000
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:[PSH] Delibird Spotlight Hour
+DESCRIPTION:[PSH] 信使鳥 聚焦時刻
 TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
@@ -67,7 +68,7 @@ DTSTART;TZID=Asia/Taipei:20260808T110000
 DTEND;TZID=Asia/Taipei:20260808T170000
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:[E] Fire and Ice Hatch Day
+DESCRIPTION:[E] Fire and Ice 孵化日
 TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
@@ -101,7 +102,7 @@ DTSTART;TZID=Asia/Taipei:20260810T060000
 DTEND;TZID=Asia/Taipei:20260810T210000
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:[MM] Dynamax Beldum during Max Monday
+DESCRIPTION:[MM] 極巨化 鐵啞鈴 during 極巨星期一
 TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
@@ -130,7 +131,7 @@ UID:mega-blaziken-in-mega-raids-august-2026
 DTSTAMP:20260806T025500Z
 SUMMARY:[RB] 超級 Blaziken in 超級 團體戰
 DESCRIPTION:Starts at 06:00\, ends at 22:00.\n\nhttps://leekduck.com/even
- ts/mega-blaziken-in-mega-raids-august-2026/
+ ts/超級-blaziken-in-超級-團體戰-august-2026/
 URL:https://leekduck.com/events/mega-blaziken-in-mega-raids-august-2026/
 IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/mega-default.j
  pg
@@ -138,7 +139,7 @@ DTSTART;VALUE=DATE:20260805
 DTEND;VALUE=DATE:20260812
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:[RB] Mega Blaziken in Mega Raids
+DESCRIPTION:[RB] 超級 Blaziken in 超級 團體戰
 TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
@@ -148,7 +149,8 @@ DTSTAMP:20260806T025500Z
 SUMMARY:[RB] 由克希\, 艾姆利多\, and 亞克諾姆 in 5-star 團體
  戰
 DESCRIPTION:Starts at 06:00\, ends at 22:00.\n\nhttps://leekduck.com/even
- ts/uxie-mesprit-azelf-in-5-star-raid-battles-august-2026/
+ ts/由克希-艾姆利多-亞克諾姆-in-5-star-團體戰-battles-augus
+ t-2026/
 URL:https://leekduck.com/events/uxie-mesprit-azelf-in-5-star-raid-battles
  -august-2026/
 IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/events-default
@@ -157,7 +159,8 @@ DTSTART;VALUE=DATE:20260805
 DTEND;VALUE=DATE:20260812
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:[RB] Uxie\, Mesprit\, and Azelf in 5-star Raid Battles
+DESCRIPTION:[RB] 由克希\, 艾姆利多\, and 亞克諾姆 in 5-star 
+ 團體戰
 TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
@@ -173,7 +176,7 @@ DTSTART;TZID=Asia/Taipei:20260812T180000
 DTEND;TZID=Asia/Taipei:20260812T190000
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:[RH] Groudon Raid Hour
+DESCRIPTION:[RH] 固拉多 團體戰約會
 TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
@@ -190,7 +193,7 @@ DTSTART;TZID=Asia/Taipei:20260813T180000
 DTEND;TZID=Asia/Taipei:20260813T190000
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:[PSH] Wurmple Spotlight Hour
+DESCRIPTION:[PSH] Wurmple 聚焦時刻
 TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
@@ -207,7 +210,7 @@ DTSTART;TZID=Asia/Taipei:20260816T140000
 DTEND;TZID=Asia/Taipei:20260816T170000
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:[CD] Nickit Community Day
+DESCRIPTION:[CD] 偷兒狐 社群日
 TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
@@ -241,7 +244,7 @@ DTSTART;TZID=Asia/Taipei:20260817T060000
 DTEND;TZID=Asia/Taipei:20260817T210000
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:[MM] Dynamax Magikarp during Max Monday
+DESCRIPTION:[MM] 極巨化 鯉魚王 during 極巨星期一
 TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
@@ -270,7 +273,7 @@ UID:groudon-in-5-star-raid-battles-august-2026
 DTSTAMP:20260806T025500Z
 SUMMARY:[RB] 固拉多 in 5-star 團體戰
 DESCRIPTION:Starts at 06:00\, ends at 22:00.\n\nhttps://leekduck.com/even
- ts/groudon-in-5-star-raid-battles-august-2026/
+ ts/固拉多-in-5-star-團體戰-battles-august-2026/
 URL:https://leekduck.com/events/groudon-in-5-star-raid-battles-august-202
  6/
 IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/events-default
@@ -279,7 +282,7 @@ DTSTART;VALUE=DATE:20260812
 DTEND;VALUE=DATE:20260819
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:[RB] Groudon in 5-star Raid Battles
+DESCRIPTION:[RB] 固拉多 in 5-star 團體戰
 TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
@@ -288,7 +291,7 @@ UID:mega-garchomp-in-mega-raids-august-2026
 DTSTAMP:20260806T025500Z
 SUMMARY:[RB] 超級 Garchomp in 超級 團體戰
 DESCRIPTION:Starts at 06:00\, ends at 22:00.\n\nhttps://leekduck.com/even
- ts/mega-garchomp-in-mega-raids-august-2026/
+ ts/超級-garchomp-in-超級-團體戰-august-2026/
 URL:https://leekduck.com/events/mega-garchomp-in-mega-raids-august-2026/
 IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/mega-default.j
  pg
@@ -296,7 +299,7 @@ DTSTART;VALUE=DATE:20260812
 DTEND;VALUE=DATE:20260819
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:[RB] Mega Garchomp in Mega Raids
+DESCRIPTION:[RB] 超級 Garchomp in 超級 團體戰
 TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
@@ -312,7 +315,7 @@ DTSTART;TZID=Asia/Taipei:20260819T180000
 DTEND;TZID=Asia/Taipei:20260819T190000
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:[RH] Lunala Raid Hour
+DESCRIPTION:[RH] 露奈雅拉 團體戰約會
 TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
@@ -329,7 +332,7 @@ DTSTART;TZID=Asia/Taipei:20260820T180000
 DTEND;TZID=Asia/Taipei:20260820T190000
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:[PSH] Magikarp Spotlight Hour
+DESCRIPTION:[PSH] 鯉魚王 聚焦時刻
 TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
@@ -338,7 +341,7 @@ UID:starmie-super-mega-raid-day-2026
 DTSTAMP:20260806T025500Z
 SUMMARY:[RD] Starmie Super 超級 團體戰日
 DESCRIPTION:Starts at 11:00\, ends at 17:00.\n\nhttps://leekduck.com/even
- ts/starmie-super-mega-raid-day-2026/
+ ts/starmie-super-超級-團體戰-day-2026/
 URL:https://leekduck.com/events/starmie-super-mega-raid-day-2026/
 IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/article-images
  /2026/2026-08-22-starmie-super-mega-raid-day-2026/starmie-super-mega-rai
@@ -347,7 +350,7 @@ DTSTART;TZID=Asia/Taipei:20260822T110000
 DTEND;TZID=Asia/Taipei:20260822T170000
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:[RD] Starmie Super Mega Raid Day
+DESCRIPTION:[RD] Starmie Super 超級 團體戰日
 TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
@@ -364,7 +367,7 @@ DTSTART;VALUE=DATE:20260818
 DTEND;VALUE=DATE:20260825
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:[E] Ultra Unlock: Water Festival
+DESCRIPTION:[E] 究極獎勵解鎖: Water Festival
 TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
@@ -381,7 +384,7 @@ DTSTART;TZID=Asia/Taipei:20260824T060000
 DTEND;TZID=Asia/Taipei:20260824T210000
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:[MM] Dynamax Hitmontop during Max Monday
+DESCRIPTION:[MM] 極巨化 Hitmontop during 極巨星期一
 TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
@@ -410,7 +413,7 @@ UID:lunala-in-5-star-raid-battles-august-2026
 DTSTAMP:20260806T025500Z
 SUMMARY:[RB] 露奈雅拉 in 5-star 團體戰
 DESCRIPTION:Starts at 06:00\, ends at 22:00.\n\nhttps://leekduck.com/even
- ts/lunala-in-5-star-raid-battles-august-2026/
+ ts/露奈雅拉-in-5-star-團體戰-battles-august-2026/
 URL:https://leekduck.com/events/lunala-in-5-star-raid-battles-august-2026
  /
 IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/events-default
@@ -419,7 +422,7 @@ DTSTART;VALUE=DATE:20260819
 DTEND;VALUE=DATE:20260826
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:[RB] Lunala in 5-star Raid Battles
+DESCRIPTION:[RB] 露奈雅拉 in 5-star 團體戰
 TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
@@ -428,7 +431,7 @@ UID:mega-swampert-in-mega-raids-august-2026
 DTSTAMP:20260806T025500Z
 SUMMARY:[RB] 超級 Swampert in 超級 團體戰
 DESCRIPTION:Starts at 06:00\, ends at 22:00.\n\nhttps://leekduck.com/even
- ts/mega-swampert-in-mega-raids-august-2026/
+ ts/超級-swampert-in-超級-團體戰-august-2026/
 URL:https://leekduck.com/events/mega-swampert-in-mega-raids-august-2026/
 IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/mega-default.j
  pg
@@ -436,7 +439,7 @@ DTSTART;VALUE=DATE:20260819
 DTEND;VALUE=DATE:20260826
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:[RB] Mega Swampert in Mega Raids
+DESCRIPTION:[RB] 超級 Swampert in 超級 團體戰
 TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
@@ -453,7 +456,8 @@ DTSTART;TZID=Asia/Taipei:20260826T180000
 DTEND;TZID=Asia/Taipei:20260826T190000
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:[RH] Regirock\, Regice\, and Registeel Raid Hour
+DESCRIPTION:[RH] 雷吉洛克\, 雷吉艾斯\, and 雷吉斯奇魯 團體
+ 戰約會
 TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
@@ -470,7 +474,7 @@ DTSTART;TZID=Asia/Taipei:20260827T180000
 DTEND;TZID=Asia/Taipei:20260827T190000
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:[PSH] Mankey Spotlight Hour
+DESCRIPTION:[PSH] 猴怪 聚焦時刻
 TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
@@ -523,7 +527,7 @@ DTSTART;TZID=Asia/Taipei:20260831T060000
 DTEND;TZID=Asia/Taipei:20260831T210000
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:[MM] Dynamax Eevee during Max Monday
+DESCRIPTION:[MM] 極巨化 伊布 during 極巨星期一
 TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
@@ -560,7 +564,8 @@ DTSTART;TZID=Asia/Taipei:20260902T180000
 DTEND;TZID=Asia/Taipei:20260902T190000
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:[RH] Regirock\, Regice\, and Registeel Raid Hour
+DESCRIPTION:[RH] 雷吉洛克\, 雷吉艾斯\, and 雷吉斯奇魯 團體
+ 戰約會
 TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
@@ -569,7 +574,7 @@ UID:pokemon-go-fest-2026-mega-finale
 DTSTAMP:20260806T025500Z
 SUMMARY:[PGF] Pokémon GO Fest 2026: 超級 Finale
 DESCRIPTION:Starts at 10:00\, ends at 19:00.\n\nhttps://leekduck.com/even
- ts/pokemon-go-fest-2026-mega-finale/
+ ts/pokemon-go-fest-2026-超級-finale/
 URL:https://leekduck.com/events/pokemon-go-fest-2026-mega-finale/
 IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/article-images
  /2026/2026-09-05-pokemon-go-fest-2026-mega-finale/pokemon-go-fest-2026-m
@@ -578,7 +583,7 @@ DTSTART;TZID=Asia/Taipei:20260905T100000
 DTEND;TZID=Asia/Taipei:20260906T190000
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:[PGF] Pokémon GO Fest 2026: Mega Finale
+DESCRIPTION:[PGF] Pokémon GO Fest 2026: 超級 Finale
 TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
@@ -587,7 +592,7 @@ UID:season-23-forever-forward
 DTSTAMP:20260806T025500Z
 SUMMARY:[S] Forever Forward
 DESCRIPTION:Starts at 10:00\, ends at 10:00.\n\nhttps://leekduck.com/even
- ts/season-23-forever-forward/
+ ts/賽季-23-forever-forward/
 URL:https://leekduck.com/events/season-23-forever-forward/
 IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/article-images
  /2026/2026-06-02-season-23-forever-forward/season-23-forever-forward.jpg
@@ -623,8 +628,8 @@ DTSTAMP:20260806T025500Z
 SUMMARY:[GBL] Great League\, Ultra League\, and Master League: 超級 Edi
  tion | Forever Forward
 DESCRIPTION:Starts at 20:00\, ends at 20:00.\n\nhttps://leekduck.com/even
- ts/gbl-forever-forward_great-league_ultra-league_master-league-mega-edit
- ion/
+ ts/gbl-forever-forward_great-league_ultra-league_master-league-超級-ed
+ ition/
 URL:https://leekduck.com/events/gbl-forever-forward_great-league_ultra-le
  ague_master-league-mega-edition/
 IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/go-battle-leag
@@ -633,8 +638,8 @@ DTSTART;VALUE=DATE:20260901
 DTEND;VALUE=DATE:20260909
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:[GBL] Great League\, Ultra League\, and Master League: Mega E
- dition | Forever Forward
+DESCRIPTION:[GBL] Great League\, Ultra League\, and Master League: 超級
+  Edition | Forever Forward
 TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
@@ -643,7 +648,7 @@ UID:shadow-giratina-altered-in-shadow-raids-august-2026
 DTSTAMP:20260806T025500Z
 SUMMARY:[RB] 暗影 騎拉帝納 (Altered Forme) in 暗影 團體戰
 DESCRIPTION:Starts at 06:00\, ends at 22:00.\n\nhttps://leekduck.com/even
- ts/shadow-giratina-altered-in-shadow-raids-august-2026/
+ ts/暗影-騎拉帝納-altered-in-暗影-團體戰-august-2026/
 URL:https://leekduck.com/events/shadow-giratina-altered-in-shadow-raids-a
  ugust-2026/
 IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/events-default
@@ -652,7 +657,7 @@ DTSTART;VALUE=DATE:20260805
 DTEND;VALUE=DATE:20260909
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:[RB] Shadow Giratina (Altered Forme) in Shadow Raids
+DESCRIPTION:[RB] 暗影 騎拉帝納 (Altered Forme) in 暗影 團體戰
 TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
@@ -661,7 +666,7 @@ UID:mega-gyarados-in-mega-raids-august-2026
 DTSTAMP:20260806T025500Z
 SUMMARY:[RB] 超級 暴鯉龍 in 超級 團體戰
 DESCRIPTION:Starts at 06:00\, ends at 22:00.\n\nhttps://leekduck.com/even
- ts/mega-gyarados-in-mega-raids-august-2026/
+ ts/超級-暴鯉龍-in-超級-團體戰-august-2026/
 URL:https://leekduck.com/events/mega-gyarados-in-mega-raids-august-2026/
 IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/mega-default.j
  pg
@@ -669,7 +674,7 @@ DTSTART;VALUE=DATE:20260826
 DTEND;VALUE=DATE:20260909
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:[RB] Mega Gyarados in Mega Raids
+DESCRIPTION:[RB] 超級 暴鯉龍 in 超級 團體戰
 TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
@@ -679,7 +684,8 @@ DTSTAMP:20260806T025500Z
 SUMMARY:[RB] 雷吉洛克\, 雷吉艾斯\, and 雷吉斯奇魯 in 5-star 
  團體戰
 DESCRIPTION:Starts at 06:00\, ends at 22:00.\n\nhttps://leekduck.com/even
- ts/regirock-regice-registeel-in-5-star-raid-battles-august-2026/
+ ts/雷吉洛克-雷吉艾斯-雷吉斯奇魯-in-5-star-團體戰-battles
+ -august-2026/
 URL:https://leekduck.com/events/regirock-regice-registeel-in-5-star-raid-
  battles-august-2026/
 IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/events-default
@@ -688,7 +694,8 @@ DTSTART;VALUE=DATE:20260826
 DTEND;VALUE=DATE:20260909
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:[RB] Regirock\, Regice\, and Registeel in 5-star Raid Battles
+DESCRIPTION:[RB] 雷吉洛克\, 雷吉艾斯\, and 雷吉斯奇魯 in 5-s
+ tar 團體戰
 TRIGGER:-PT15M
 END:VALARM
 END:VEVENT

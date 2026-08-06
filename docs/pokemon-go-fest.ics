@@ -4,8 +4,8 @@ NAME:Pokémon GO Fest
 X-WR-CALNAME:Pokémon GO Fest
 X-WR-TIMEZONE:Asia/Taipei
 PRODID:spatie/icalendar-generator
-DESCRIPTION:All Pokémon GO Pokémon GO Fest events\, in your local time\
- , auto-updated and sourced from Leek Duck.
+DESCRIPTION:All Pokémon GO Pokémon GO Fest events\, in your 當地時
+ 間 time\, auto-updated and sourced from Leek Duck.
 X-WR-CALDESC:All Pokémon GO Pokémon GO Fest events\, in your local time
  \, auto-updated and sourced from Leek Duck.
 REFRESH-INTERVAL;VALUE=DURATION:PT1440M
@@ -16,7 +16,7 @@ X-LIC-LOCATION:Asia/Taipei
 BEGIN:STANDARD
 TZOFFSETFROM:+0800
 TZOFFSETTO:+0800
-TZNAME:UTC+08
+TZNAME:CST
 DTSTART:19700101T000000
 END:STANDARD
 END:VTIMEZONE
@@ -25,7 +25,7 @@ UID:pokemon-go-fest-2026-mega-finale
 DTSTAMP:20260806T025500Z
 SUMMARY:[PGF] Pokémon GO Fest 2026: 超級 Finale
 DESCRIPTION:Starts at 10:00\, ends at 19:00.\n\nhttps://leekduck.com/even
- ts/pokemon-go-fest-2026-mega-finale/
+ ts/pokemon-go-fest-2026-超級-finale/
 URL:https://leekduck.com/events/pokemon-go-fest-2026-mega-finale/
 IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/article-images
  /2026/2026-09-05-pokemon-go-fest-2026-mega-finale/pokemon-go-fest-2026-m
@@ -34,7 +34,7 @@ DTSTART;TZID=Asia/Taipei:20260905T100000
 DTEND;TZID=Asia/Taipei:20260906T190000
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:[PGF] Pokémon GO Fest 2026: Mega Finale
+DESCRIPTION:[PGF] Pokémon GO Fest 2026: 超級 Finale
 TRIGGER:-PT15M
 END:VALARM
 END:VEVENT

@@ -4,8 +4,8 @@ NAME:Pokémon GO 調查活動
 X-WR-CALNAME:Pokémon GO 調查活動
 X-WR-TIMEZONE:Asia/Taipei
 PRODID:spatie/icalendar-generator
-DESCRIPTION:All Pokémon GO Research events\, in your local time\, auto-u
- pdated and sourced from Leek Duck.
+DESCRIPTION:All Pokémon GO Research events\, in your 當地時間 time\,
+  auto-updated and sourced from Leek Duck.
 X-WR-CALDESC:All Pokémon GO Research events\, in your local time\, auto-
  updated and sourced from Leek Duck.
 REFRESH-INTERVAL;VALUE=DURATION:PT1440M
@@ -16,7 +16,7 @@ X-LIC-LOCATION:Asia/Taipei
 BEGIN:STANDARD
 TZOFFSETFROM:+0800
 TZOFFSETTO:+0800
-TZNAME:UTC+08
+TZNAME:CST
 DTSTART:19700101T000000
 END:STANDARD
 END:VTIMEZONE

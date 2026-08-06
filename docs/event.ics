@@ -4,8 +4,8 @@ NAME:Pokémon GO 一般活動
 X-WR-CALNAME:Pokémon GO 一般活動
 X-WR-TIMEZONE:Asia/Taipei
 PRODID:spatie/icalendar-generator
-DESCRIPTION:All Pokémon GO Event events\, in your local time\, auto-upda
- ted and sourced from Leek Duck.
+DESCRIPTION:All Pokémon GO 活動 events\, in your 當地時間 time\, a
+ uto-updated and sourced from Leek Duck.
 X-WR-CALDESC:All Pokémon GO Event events\, in your local time\, auto-upd
  ated and sourced from Leek Duck.
 REFRESH-INTERVAL;VALUE=DURATION:PT1440M
@@ -16,7 +16,7 @@ X-LIC-LOCATION:Asia/Taipei
 BEGIN:STANDARD
 TZOFFSETFROM:+0800
 TZOFFSETTO:+0800
-TZNAME:UTC+08
+TZNAME:CST
 DTSTART:19700101T000000
 END:STANDARD
 END:VTIMEZONE
@@ -34,7 +34,7 @@ DTSTART;TZID=Asia/Taipei:20260808T110000
 DTEND;TZID=Asia/Taipei:20260808T170000
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:[E] Fire and Ice Hatch Day
+DESCRIPTION:[E] Fire and Ice 孵化日
 TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
@@ -68,7 +68,7 @@ DTSTART;VALUE=DATE:20260818
 DTEND;VALUE=DATE:20260825
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:[E] Ultra Unlock: Water Festival
+DESCRIPTION:[E] 究極獎勵解鎖: Water Festival
 TRIGGER:-PT15M
 END:VALARM
 END:VEVENT

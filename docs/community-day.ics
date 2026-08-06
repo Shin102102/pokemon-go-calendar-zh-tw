@@ -4,8 +4,8 @@ NAME:Pokémon GO 社群日
 X-WR-CALNAME:Pokémon GO 社群日
 X-WR-TIMEZONE:Asia/Taipei
 PRODID:spatie/icalendar-generator
-DESCRIPTION:All Pokémon GO Community Day events\, in your local time\, a
- uto-updated and sourced from Leek Duck.
+DESCRIPTION:All Pokémon GO 社群日 events\, in your 當地時間 time\
+ , auto-updated and sourced from Leek Duck.
 X-WR-CALDESC:All Pokémon GO Community Day events\, in your local time\, 
  auto-updated and sourced from Leek Duck.
 REFRESH-INTERVAL;VALUE=DURATION:PT1440M
@@ -16,7 +16,7 @@ X-LIC-LOCATION:Asia/Taipei
 BEGIN:STANDARD
 TZOFFSETFROM:+0800
 TZOFFSETTO:+0800
-TZNAME:UTC+08
+TZNAME:CST
 DTSTART:19700101T000000
 END:STANDARD
 END:VTIMEZONE
@@ -33,7 +33,7 @@ DTSTART;TZID=Asia/Taipei:20260816T140000
 DTEND;TZID=Asia/Taipei:20260816T170000
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:[CD] Nickit Community Day
+DESCRIPTION:[CD] 偷兒狐 社群日
 TRIGGER:-PT15M
 END:VALARM
 END:VEVENT

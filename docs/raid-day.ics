@@ -4,8 +4,8 @@ NAME:Pokémon GO 團體戰日
 X-WR-CALNAME:Pokémon GO 團體戰日
 X-WR-TIMEZONE:Asia/Taipei
 PRODID:spatie/icalendar-generator
-DESCRIPTION:All Pokémon GO Raid Day events\, in your local time\, auto-u
- pdated and sourced from Leek Duck.
+DESCRIPTION:All Pokémon GO 團體戰日 events\, in your 當地時間 ti
+ me\, auto-updated and sourced from Leek Duck.
 X-WR-CALDESC:All Pokémon GO Raid Day events\, in your local time\, auto-
  updated and sourced from Leek Duck.
 REFRESH-INTERVAL;VALUE=DURATION:PT1440M
@@ -16,7 +16,7 @@ X-LIC-LOCATION:Asia/Taipei
 BEGIN:STANDARD
 TZOFFSETFROM:+0800
 TZOFFSETTO:+0800
-TZNAME:UTC+08
+TZNAME:CST
 DTSTART:19700101T000000
 END:STANDARD
 END:VTIMEZONE
@@ -25,7 +25,7 @@ UID:starmie-super-mega-raid-day-2026
 DTSTAMP:20260806T025500Z
 SUMMARY:[RD] Starmie Super 超級 團體戰日
 DESCRIPTION:Starts at 11:00\, ends at 17:00.\n\nhttps://leekduck.com/even
- ts/starmie-super-mega-raid-day-2026/
+ ts/starmie-super-超級-團體戰-day-2026/
 URL:https://leekduck.com/events/starmie-super-mega-raid-day-2026/
 IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/article-images
  /2026/2026-08-22-starmie-super-mega-raid-day-2026/starmie-super-mega-rai
@@ -34,7 +34,7 @@ DTSTART;TZID=Asia/Taipei:20260822T110000
 DTEND;TZID=Asia/Taipei:20260822T170000
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:[RD] Starmie Super Mega Raid Day
+DESCRIPTION:[RD] Starmie Super 超級 團體戰日
 TRIGGER:-PT15M
 END:VALARM
 END:VEVENT

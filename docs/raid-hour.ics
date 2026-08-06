@@ -4,8 +4,8 @@ NAME:Pokémon GO 團體戰約會
 X-WR-CALNAME:Pokémon GO 團體戰約會
 X-WR-TIMEZONE:Asia/Taipei
 PRODID:spatie/icalendar-generator
-DESCRIPTION:All Pokémon GO Raid Hour events\, in your local time\, auto-
- updated and sourced from Leek Duck.
+DESCRIPTION:All Pokémon GO 團體戰約會 events\, in your 當地時間
+  time\, auto-updated and sourced from Leek Duck.
 X-WR-CALDESC:All Pokémon GO Raid Hour events\, in your local time\, auto
  -updated and sourced from Leek Duck.
 REFRESH-INTERVAL;VALUE=DURATION:PT1440M
@@ -16,7 +16,7 @@ X-LIC-LOCATION:Asia/Taipei
 BEGIN:STANDARD
 TZOFFSETFROM:+0800
 TZOFFSETTO:+0800
-TZNAME:UTC+08
+TZNAME:CST
 DTSTART:19700101T000000
 END:STANDARD
 END:VTIMEZONE
@@ -32,7 +32,8 @@ DTSTART;TZID=Asia/Taipei:20260805T180000
 DTEND;TZID=Asia/Taipei:20260805T190000
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:[RH] Uxie\, Mesprit\, and Azelf Raid Hour
+DESCRIPTION:[RH] 由克希\, 艾姆利多\, and 亞克諾姆 團體戰約
+ 會
 TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
@@ -48,7 +49,7 @@ DTSTART;TZID=Asia/Taipei:20260812T180000
 DTEND;TZID=Asia/Taipei:20260812T190000
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:[RH] Groudon Raid Hour
+DESCRIPTION:[RH] 固拉多 團體戰約會
 TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
@@ -64,7 +65,7 @@ DTSTART;TZID=Asia/Taipei:20260819T180000
 DTEND;TZID=Asia/Taipei:20260819T190000
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:[RH] Lunala Raid Hour
+DESCRIPTION:[RH] 露奈雅拉 團體戰約會
 TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
@@ -81,7 +82,8 @@ DTSTART;TZID=Asia/Taipei:20260826T180000
 DTEND;TZID=Asia/Taipei:20260826T190000
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:[RH] Regirock\, Regice\, and Registeel Raid Hour
+DESCRIPTION:[RH] 雷吉洛克\, 雷吉艾斯\, and 雷吉斯奇魯 團體
+ 戰約會
 TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
@@ -98,7 +100,8 @@ DTSTART;TZID=Asia/Taipei:20260902T180000
 DTEND;TZID=Asia/Taipei:20260902T190000
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:[RH] Regirock\, Regice\, and Registeel Raid Hour
+DESCRIPTION:[RH] 雷吉洛克\, 雷吉艾斯\, and 雷吉斯奇魯 團體
+ 戰約會
 TRIGGER:-PT15M
 END:VALARM
 END:VEVENT

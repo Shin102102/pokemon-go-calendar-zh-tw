@@ -4,8 +4,8 @@ NAME:Pokémon GO 對戰聯盟
 X-WR-CALNAME:Pokémon GO 對戰聯盟
 X-WR-TIMEZONE:Asia/Taipei
 PRODID:spatie/icalendar-generator
-DESCRIPTION:All Pokémon GO GO Battle League events\, in your local time\
- , auto-updated and sourced from Leek Duck.
+DESCRIPTION:All Pokémon GO GO 對戰聯盟 events\, in your 當地時間
+  time\, auto-updated and sourced from Leek Duck.
 X-WR-CALDESC:All Pokémon GO GO Battle League events\, in your local time
  \, auto-updated and sourced from Leek Duck.
 REFRESH-INTERVAL;VALUE=DURATION:PT1440M
@@ -16,7 +16,7 @@ X-LIC-LOCATION:Asia/Taipei
 BEGIN:STANDARD
 TZOFFSETFROM:+0800
 TZOFFSETTO:+0800
-TZNAME:UTC+08
+TZNAME:CST
 DTSTART:19700101T000000
 END:STANDARD
 END:VTIMEZONE
@@ -107,8 +107,8 @@ DTSTAMP:20260806T025500Z
 SUMMARY:[GBL] Great League\, Ultra League\, and Master League: 超級 Edi
  tion | Forever Forward
 DESCRIPTION:Starts at 20:00\, ends at 20:00.\n\nhttps://leekduck.com/even
- ts/gbl-forever-forward_great-league_ultra-league_master-league-mega-edit
- ion/
+ ts/gbl-forever-forward_great-league_ultra-league_master-league-超級-ed
+ ition/
 URL:https://leekduck.com/events/gbl-forever-forward_great-league_ultra-le
  ague_master-league-mega-edition/
 IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/go-battle-leag
@@ -117,8 +117,8 @@ DTSTART;VALUE=DATE:20260901
 DTEND;VALUE=DATE:20260909
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:[GBL] Great League\, Ultra League\, and Master League: Mega E
- dition | Forever Forward
+DESCRIPTION:[GBL] Great League\, Ultra League\, and Master League: 超級
+  Edition | Forever Forward
 TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
