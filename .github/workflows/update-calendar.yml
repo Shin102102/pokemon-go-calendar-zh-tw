@@ -4,6 +4,7 @@ on:
   workflow_dispatch:
 
   schedule:
+    # UTC 01:17
     # 台灣時間每天上午約 09:17
     - cron: "17 1 * * *"
 
@@ -23,20 +24,26 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: 產生所有繁體中文分類行事曆
+      - name: 產生繁體中文分類行事曆
         run: python translate_calendar.py
 
       - name: 檢查完整行事曆
         run: |
           test -s docs/all.ics
           grep -q "BEGIN:VCALENDAR" docs/all.ics
-          grep -q "BEGIN:VEVENT" docs/all.ics
           grep -q "END:VCALENDAR" docs/all.ics
+          grep -q "TZID:Asia/Taipei" docs/all.ics
 
-      - name: 檢查主要分類檔案
+      - name: 檢查聚焦時刻的台灣時區
+        run: |
+          test -s docs/spotlight-hour.ics
+          grep -q "BEGIN:VEVENT" docs/spotlight-hour.ics
+          grep -q "DTSTART;TZID=Asia/Taipei" docs/spotlight-hour.ics
+          grep -q "DTEND;TZID=Asia/Taipei" docs/spotlight-hour.ics
+
+      - name: 檢查其他主要分類
         run: |
           test -s docs/community-day.ics
-          test -s docs/spotlight-hour.ics
           test -s docs/raid-hour.ics
           test -s docs/raid-day.ics
           test -s docs/raid-battles.ics
