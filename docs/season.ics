@@ -1,15 +1,25 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-X-WR-CALNAME:Pokémon GO 賽季
-PRODID:spatie/icalendar-generator
 NAME:Pokémon GO 賽季
 X-WR-CALNAME:Pokémon GO 賽季
+X-WR-TIMEZONE:Asia/Taipei
+PRODID:spatie/icalendar-generator
 DESCRIPTION:All Pokémon GO Season events\, in your local time\, auto-upd
  ated and sourced from Leek Duck.
 X-WR-CALDESC:All Pokémon GO Season events\, in your local time\, auto-up
  dated and sourced from Leek Duck.
 REFRESH-INTERVAL;VALUE=DURATION:PT1440M
 X-PUBLISHED-TTL:PT1440M
+BEGIN:VTIMEZONE
+TZID:Asia/Taipei
+X-LIC-LOCATION:Asia/Taipei
+BEGIN:STANDARD
+TZOFFSETFROM:+0800
+TZOFFSETTO:+0800
+TZNAME:UTC+08
+DTSTART:19700101T000000
+END:STANDARD
+END:VTIMEZONE
 BEGIN:VEVENT
 UID:season-23-forever-forward
 DTSTAMP:20260806T025500Z

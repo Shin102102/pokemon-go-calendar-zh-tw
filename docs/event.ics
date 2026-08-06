@@ -1,15 +1,25 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-X-WR-CALNAME:Pokémon GO 一般活動
-PRODID:spatie/icalendar-generator
 NAME:Pokémon GO 一般活動
 X-WR-CALNAME:Pokémon GO 一般活動
+X-WR-TIMEZONE:Asia/Taipei
+PRODID:spatie/icalendar-generator
 DESCRIPTION:All Pokémon GO Event events\, in your local time\, auto-upda
  ted and sourced from Leek Duck.
 X-WR-CALDESC:All Pokémon GO Event events\, in your local time\, auto-upd
  ated and sourced from Leek Duck.
 REFRESH-INTERVAL;VALUE=DURATION:PT1440M
 X-PUBLISHED-TTL:PT1440M
+BEGIN:VTIMEZONE
+TZID:Asia/Taipei
+X-LIC-LOCATION:Asia/Taipei
+BEGIN:STANDARD
+TZOFFSETFROM:+0800
+TZOFFSETTO:+0800
+TZNAME:UTC+08
+DTSTART:19700101T000000
+END:STANDARD
+END:VTIMEZONE
 BEGIN:VEVENT
 UID:fire-and-ice-hatch-day-2026
 DTSTAMP:20260806T025500Z
@@ -20,8 +30,8 @@ URL:https://leekduck.com/events/fire-and-ice-hatch-day-2026/
 IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/article-images
  /2026/2026-08-08-fire-and-ice-hatch-day-2026/fire-and-ice-hatch-day-2026
  .jpg
-DTSTART:20260808T110000
-DTEND:20260808T170000
+DTSTART;TZID=Asia/Taipei:20260808T110000
+DTEND;TZID=Asia/Taipei:20260808T170000
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:[E] Fire and Ice Hatch Day

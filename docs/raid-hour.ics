@@ -1,15 +1,25 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-X-WR-CALNAME:Pokémon GO 團體戰約會
-PRODID:spatie/icalendar-generator
 NAME:Pokémon GO 團體戰約會
 X-WR-CALNAME:Pokémon GO 團體戰約會
+X-WR-TIMEZONE:Asia/Taipei
+PRODID:spatie/icalendar-generator
 DESCRIPTION:All Pokémon GO Raid Hour events\, in your local time\, auto-
  updated and sourced from Leek Duck.
 X-WR-CALDESC:All Pokémon GO Raid Hour events\, in your local time\, auto
  -updated and sourced from Leek Duck.
 REFRESH-INTERVAL;VALUE=DURATION:PT1440M
 X-PUBLISHED-TTL:PT1440M
+BEGIN:VTIMEZONE
+TZID:Asia/Taipei
+X-LIC-LOCATION:Asia/Taipei
+BEGIN:STANDARD
+TZOFFSETFROM:+0800
+TZOFFSETTO:+0800
+TZNAME:UTC+08
+DTSTART:19700101T000000
+END:STANDARD
+END:VTIMEZONE
 BEGIN:VEVENT
 UID:raidhour20260805
 DTSTAMP:20260806T025500Z
@@ -18,8 +28,8 @@ DESCRIPTION:Starts at 18:00\, ends at 19:00.\n\nhttps://leekduck.com/even
  ts/raidhour20260805/
 URL:https://leekduck.com/events/raidhour20260805/
 IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/raidhour.jpg
-DTSTART:20260805T180000
-DTEND:20260805T190000
+DTSTART;TZID=Asia/Taipei:20260805T180000
+DTEND;TZID=Asia/Taipei:20260805T190000
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:[RH] Uxie\, Mesprit\, and Azelf Raid Hour
@@ -34,8 +44,8 @@ DESCRIPTION:Starts at 18:00\, ends at 19:00.\n\nhttps://leekduck.com/even
  ts/raidhour20260812/
 URL:https://leekduck.com/events/raidhour20260812/
 IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/raidhour.jpg
-DTSTART:20260812T180000
-DTEND:20260812T190000
+DTSTART;TZID=Asia/Taipei:20260812T180000
+DTEND;TZID=Asia/Taipei:20260812T190000
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:[RH] Groudon Raid Hour
@@ -50,8 +60,8 @@ DESCRIPTION:Starts at 18:00\, ends at 19:00.\n\nhttps://leekduck.com/even
  ts/raidhour20260819/
 URL:https://leekduck.com/events/raidhour20260819/
 IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/raidhour.jpg
-DTSTART:20260819T180000
-DTEND:20260819T190000
+DTSTART;TZID=Asia/Taipei:20260819T180000
+DTEND;TZID=Asia/Taipei:20260819T190000
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:[RH] Lunala Raid Hour
@@ -67,8 +77,8 @@ DESCRIPTION:Starts at 18:00\, ends at 19:00.\n\nhttps://leekduck.com/even
  ts/raidhour20260826/
 URL:https://leekduck.com/events/raidhour20260826/
 IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/raidhour.jpg
-DTSTART:20260826T180000
-DTEND:20260826T190000
+DTSTART;TZID=Asia/Taipei:20260826T180000
+DTEND;TZID=Asia/Taipei:20260826T190000
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:[RH] Regirock\, Regice\, and Registeel Raid Hour
@@ -84,8 +94,8 @@ DESCRIPTION:Starts at 18:00\, ends at 19:00.\n\nhttps://leekduck.com/even
  ts/raidhour20260902/
 URL:https://leekduck.com/events/raidhour20260902/
 IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/raidhour.jpg
-DTSTART:20260902T180000
-DTEND:20260902T190000
+DTSTART;TZID=Asia/Taipei:20260902T180000
+DTEND;TZID=Asia/Taipei:20260902T190000
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:[RH] Regirock\, Regice\, and Registeel Raid Hour

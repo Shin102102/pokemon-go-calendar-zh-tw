@@ -1,15 +1,25 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-X-WR-CALNAME:Pokémon GO 調查活動
-PRODID:spatie/icalendar-generator
 NAME:Pokémon GO 調查活動
 X-WR-CALNAME:Pokémon GO 調查活動
+X-WR-TIMEZONE:Asia/Taipei
+PRODID:spatie/icalendar-generator
 DESCRIPTION:All Pokémon GO Research events\, in your local time\, auto-u
  pdated and sourced from Leek Duck.
 X-WR-CALDESC:All Pokémon GO Research events\, in your local time\, auto-
  updated and sourced from Leek Duck.
 REFRESH-INTERVAL;VALUE=DURATION:PT1440M
 X-PUBLISHED-TTL:PT1440M
+BEGIN:VTIMEZONE
+TZID:Asia/Taipei
+X-LIC-LOCATION:Asia/Taipei
+BEGIN:STANDARD
+TZOFFSETFROM:+0800
+TZOFFSETTO:+0800
+TZNAME:UTC+08
+DTSTART:19700101T000000
+END:STANDARD
+END:VTIMEZONE
 BEGIN:VEVENT
 UID:pokemon-world-championships-2026-timed-research-twitch-drops
 DTSTAMP:20260806T025500Z

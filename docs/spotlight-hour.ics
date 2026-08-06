@@ -1,15 +1,25 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-X-WR-CALNAME:Pokémon GO 聚焦時刻
-PRODID:spatie/icalendar-generator
 NAME:Pokémon GO 聚焦時刻
 X-WR-CALNAME:Pokémon GO 聚焦時刻
+X-WR-TIMEZONE:Asia/Taipei
+PRODID:spatie/icalendar-generator
 DESCRIPTION:All Pokémon GO Pokémon Spotlight Hour events\, in your loca
  l time\, auto-updated and sourced from Leek Duck.
 X-WR-CALDESC:All Pokémon GO Pokémon Spotlight Hour events\, in your loc
  al time\, auto-updated and sourced from Leek Duck.
 REFRESH-INTERVAL;VALUE=DURATION:PT1440M
 X-PUBLISHED-TTL:PT1440M
+BEGIN:VTIMEZONE
+TZID:Asia/Taipei
+X-LIC-LOCATION:Asia/Taipei
+BEGIN:STANDARD
+TZOFFSETFROM:+0800
+TZOFFSETTO:+0800
+TZNAME:UTC+08
+DTSTART:19700101T000000
+END:STANDARD
+END:VTIMEZONE
 BEGIN:VEVENT
 UID:pokemonspotlighthour2026-08-06
 DTSTAMP:20260806T025500Z
@@ -19,8 +29,8 @@ DESCRIPTION:Starts at 18:00\, ends at 19:00.\n\nhttps://leekduck.com/even
 URL:https://leekduck.com/events/pokemonspotlighthour2026-08-06/
 IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/pokemonspotlig
  hthour.jpg
-DTSTART:20260806T180000
-DTEND:20260806T190000
+DTSTART;TZID=Asia/Taipei:20260806T180000
+DTEND;TZID=Asia/Taipei:20260806T190000
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:[PSH] Delibird Spotlight Hour
@@ -36,8 +46,8 @@ DESCRIPTION:Starts at 18:00\, ends at 19:00.\n\nhttps://leekduck.com/even
 URL:https://leekduck.com/events/pokemonspotlighthour2026-08-13/
 IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/pokemonspotlig
  hthour.jpg
-DTSTART:20260813T180000
-DTEND:20260813T190000
+DTSTART;TZID=Asia/Taipei:20260813T180000
+DTEND;TZID=Asia/Taipei:20260813T190000
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:[PSH] Wurmple Spotlight Hour
@@ -53,8 +63,8 @@ DESCRIPTION:Starts at 18:00\, ends at 19:00.\n\nhttps://leekduck.com/even
 URL:https://leekduck.com/events/pokemonspotlighthour2026-08-20/
 IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/pokemonspotlig
  hthour.jpg
-DTSTART:20260820T180000
-DTEND:20260820T190000
+DTSTART;TZID=Asia/Taipei:20260820T180000
+DTEND;TZID=Asia/Taipei:20260820T190000
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:[PSH] Magikarp Spotlight Hour
@@ -70,8 +80,8 @@ DESCRIPTION:Starts at 18:00\, ends at 19:00.\n\nhttps://leekduck.com/even
 URL:https://leekduck.com/events/pokemonspotlighthour2026-08-27/
 IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/pokemonspotlig
  hthour.jpg
-DTSTART:20260827T180000
-DTEND:20260827T190000
+DTSTART;TZID=Asia/Taipei:20260827T180000
+DTEND;TZID=Asia/Taipei:20260827T190000
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:[PSH] Mankey Spotlight Hour

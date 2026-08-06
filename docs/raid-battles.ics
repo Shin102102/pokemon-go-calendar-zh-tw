@@ -1,15 +1,25 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-X-WR-CALNAME:Pokémon GO 團體戰
-PRODID:spatie/icalendar-generator
 NAME:Pokémon GO 團體戰
 X-WR-CALNAME:Pokémon GO 團體戰
+X-WR-TIMEZONE:Asia/Taipei
+PRODID:spatie/icalendar-generator
 DESCRIPTION:All Pokémon GO Raid Battles events\, in your local time\, au
  to-updated and sourced from Leek Duck.
 X-WR-CALDESC:All Pokémon GO Raid Battles events\, in your local time\, a
  uto-updated and sourced from Leek Duck.
 REFRESH-INTERVAL;VALUE=DURATION:PT1440M
 X-PUBLISHED-TTL:PT1440M
+BEGIN:VTIMEZONE
+TZID:Asia/Taipei
+X-LIC-LOCATION:Asia/Taipei
+BEGIN:STANDARD
+TZOFFSETFROM:+0800
+TZOFFSETTO:+0800
+TZNAME:UTC+08
+DTSTART:19700101T000000
+END:STANDARD
+END:VTIMEZONE
 BEGIN:VEVENT
 UID:mega-blaziken-in-mega-raids-august-2026
 DTSTAMP:20260806T025500Z

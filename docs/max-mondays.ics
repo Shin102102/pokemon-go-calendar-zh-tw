@@ -1,15 +1,25 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-X-WR-CALNAME:Pokémon GO 極巨星期一
-PRODID:spatie/icalendar-generator
 NAME:Pokémon GO 極巨星期一
 X-WR-CALNAME:Pokémon GO 極巨星期一
+X-WR-TIMEZONE:Asia/Taipei
+PRODID:spatie/icalendar-generator
 DESCRIPTION:All Pokémon GO Max Mondays events\, in your local time\, aut
  o-updated and sourced from Leek Duck.
 X-WR-CALDESC:All Pokémon GO Max Mondays events\, in your local time\, au
  to-updated and sourced from Leek Duck.
 REFRESH-INTERVAL;VALUE=DURATION:PT1440M
 X-PUBLISHED-TTL:PT1440M
+BEGIN:VTIMEZONE
+TZID:Asia/Taipei
+X-LIC-LOCATION:Asia/Taipei
+BEGIN:STANDARD
+TZOFFSETFROM:+0800
+TZOFFSETTO:+0800
+TZNAME:UTC+08
+DTSTART:19700101T000000
+END:STANDARD
+END:VTIMEZONE
 BEGIN:VEVENT
 UID:max-mondays-2026-08-10
 DTSTAMP:20260806T025500Z
@@ -19,8 +29,8 @@ DESCRIPTION:Starts at 06:00\, ends at 21:00.\n\nhttps://leekduck.com/even
 URL:https://leekduck.com/events/max-mondays-2026-08-10/
 IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/max-battles-ka
  nto.jpg
-DTSTART:20260810T060000
-DTEND:20260810T210000
+DTSTART;TZID=Asia/Taipei:20260810T060000
+DTEND;TZID=Asia/Taipei:20260810T210000
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:[MM] Dynamax Beldum during Max Monday
@@ -36,8 +46,8 @@ DESCRIPTION:Starts at 06:00\, ends at 21:00.\n\nhttps://leekduck.com/even
 URL:https://leekduck.com/events/max-mondays-2026-08-17/
 IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/max-battles-ka
  nto.jpg
-DTSTART:20260817T060000
-DTEND:20260817T210000
+DTSTART;TZID=Asia/Taipei:20260817T060000
+DTEND;TZID=Asia/Taipei:20260817T210000
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:[MM] Dynamax Magikarp during Max Monday
@@ -53,8 +63,8 @@ DESCRIPTION:Starts at 06:00\, ends at 21:00.\n\nhttps://leekduck.com/even
 URL:https://leekduck.com/events/max-mondays-2026-08-24/
 IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/max-battles-ka
  nto.jpg
-DTSTART:20260824T060000
-DTEND:20260824T210000
+DTSTART;TZID=Asia/Taipei:20260824T060000
+DTEND;TZID=Asia/Taipei:20260824T210000
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:[MM] Dynamax Hitmontop during Max Monday
@@ -70,8 +80,8 @@ DESCRIPTION:Starts at 06:00\, ends at 21:00.\n\nhttps://leekduck.com/even
 URL:https://leekduck.com/events/max-mondays-2026-08-31/
 IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/max-battles-ka
  nto.jpg
-DTSTART:20260831T060000
-DTEND:20260831T210000
+DTSTART;TZID=Asia/Taipei:20260831T060000
+DTEND;TZID=Asia/Taipei:20260831T210000
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:[MM] Dynamax Eevee during Max Monday
