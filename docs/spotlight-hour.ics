@@ -22,7 +22,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:pokemonspotlighthour2026-08-06
-DTSTAMP:20260807T025121Z
+DTSTAMP:20260808T015508Z
 SUMMARY:[PSH] 信使鳥 聚焦時刻
 DESCRIPTION:Starts at 18:00\, ends at 19:00.\n\nhttps://leekduck.com/even
  ts/pokemonspotlighthour2026-08-06/
@@ -39,7 +39,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:pokemonspotlighthour2026-08-13
-DTSTAMP:20260807T025121Z
+DTSTAMP:20260808T015508Z
 SUMMARY:[PSH] Wurmple 聚焦時刻
 DESCRIPTION:Starts at 18:00\, ends at 19:00.\n\nhttps://leekduck.com/even
  ts/pokemonspotlighthour2026-08-13/
@@ -56,7 +56,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:pokemonspotlighthour2026-08-20
-DTSTAMP:20260807T025121Z
+DTSTAMP:20260808T015508Z
 SUMMARY:[PSH] 鯉魚王 聚焦時刻
 DESCRIPTION:Starts at 18:00\, ends at 19:00.\n\nhttps://leekduck.com/even
  ts/pokemonspotlighthour2026-08-20/
@@ -73,7 +73,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:pokemonspotlighthour2026-08-27
-DTSTAMP:20260807T025121Z
+DTSTAMP:20260808T015508Z
 SUMMARY:[PSH] 猴怪 聚焦時刻
 DESCRIPTION:Starts at 18:00\, ends at 19:00.\n\nhttps://leekduck.com/even
  ts/pokemonspotlighthour2026-08-27/
