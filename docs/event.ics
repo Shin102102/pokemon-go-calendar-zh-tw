@@ -22,7 +22,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:fire-and-ice-hatch-day-2026
-DTSTAMP:20260809T020316Z
+DTSTAMP:20260810T020730Z
 SUMMARY:[E] Fire and Ice 孵化日
 DESCRIPTION:Starts at 11:00\, ends at 17:00.\n\nhttps://leekduck.com/even
  ts/fire-and-ice-hatch-day-2026/
@@ -40,7 +40,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:summer-marathon-2026
-DTSTAMP:20260809T020316Z
+DTSTAMP:20260810T020730Z
 SUMMARY:[E] Summer Marathon: Arctic Embers
 DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/even
  ts/summer-marathon-2026/
@@ -57,7 +57,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:water-festival-2026
-DTSTAMP:20260809T020316Z
+DTSTAMP:20260810T020730Z
 SUMMARY:[E] 究極獎勵解鎖: Water Festival
 DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/even
  ts/water-festival-2026/
@@ -74,7 +74,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:pokemon-xp-2026-worlds
-DTSTAMP:20260809T020316Z
+DTSTAMP:20260810T020730Z
 SUMMARY:[E] PokémonXP &amp\; 2026 Worlds
 DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/even
  ts/pokemon-xp-2026-worlds/
@@ -91,7 +91,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lego-pokemon-go-2026
-DTSTAMP:20260809T020316Z
+DTSTAMP:20260810T020730Z
 SUMMARY:[E] LEGO Stores and Pokémon GO
 DESCRIPTION:Starts at 10:00\, ends at 23:59.\n\nhttps://leekduck.com/even
  ts/lego-pokemon-go-2026/
