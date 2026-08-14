@@ -21,46 +21,8 @@ DTSTART:19700101T000000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:mega-blaziken-in-mega-raids-august-2026
-DTSTAMP:20260812T021917Z
-SUMMARY:[RB] 超級 Blaziken in 超級 團體戰
-DESCRIPTION:Starts at 06:00\, ends at 22:00.\n\nhttps://leekduck.com/even
- ts/超級-blaziken-in-超級-團體戰-august-2026/
-URL:https://leekduck.com/events/mega-blaziken-in-mega-raids-august-2026/
-IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/mega-default.j
- pg
-DTSTART;VALUE=DATE:20260805
-DTEND;VALUE=DATE:20260812
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:[RB] 超級 Blaziken in 超級 團體戰
-TRIGGER:-PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:uxie-mesprit-azelf-in-5-star-raid-battles-august-2026
-DTSTAMP:20260812T021917Z
-SUMMARY:[RB] 由克希\, 艾姆利多\, and 亞克諾姆 in 5-star 團體
- 戰
-DESCRIPTION:Starts at 06:00\, ends at 22:00.\n\nhttps://leekduck.com/even
- ts/由克希-艾姆利多-亞克諾姆-in-5-star-團體戰-battles-augus
- t-2026/
-URL:https://leekduck.com/events/uxie-mesprit-azelf-in-5-star-raid-battles
- -august-2026/
-IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/events-default
- -img.jpg
-DTSTART;VALUE=DATE:20260805
-DTEND;VALUE=DATE:20260812
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:[RB] 由克希\, 艾姆利多\, and 亞克諾姆 in 5-star 
- 團體戰
-TRIGGER:-PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:groudon-in-5-star-raid-battles-august-2026
-DTSTAMP:20260812T021917Z
+DTSTAMP:20260814T021924Z
 SUMMARY:[RB] 固拉多 in 5-star 團體戰
 DESCRIPTION:Starts at 06:00\, ends at 22:00.\n\nhttps://leekduck.com/even
  ts/固拉多-in-5-star-團體戰-battles-august-2026/
@@ -78,7 +40,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:mega-garchomp-in-mega-raids-august-2026
-DTSTAMP:20260812T021917Z
+DTSTAMP:20260814T021924Z
 SUMMARY:[RB] 超級 Garchomp in 超級 團體戰
 DESCRIPTION:Starts at 06:00\, ends at 22:00.\n\nhttps://leekduck.com/even
  ts/超級-garchomp-in-超級-團體戰-august-2026/
@@ -95,7 +57,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lunala-in-5-star-raid-battles-august-2026
-DTSTAMP:20260812T021917Z
+DTSTAMP:20260814T021924Z
 SUMMARY:[RB] 露奈雅拉 in 5-star 團體戰
 DESCRIPTION:Starts at 06:00\, ends at 22:00.\n\nhttps://leekduck.com/even
  ts/露奈雅拉-in-5-star-團體戰-battles-august-2026/
@@ -113,7 +75,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:mega-swampert-in-mega-raids-august-2026
-DTSTAMP:20260812T021917Z
+DTSTAMP:20260814T021924Z
 SUMMARY:[RB] 超級 Swampert in 超級 團體戰
 DESCRIPTION:Starts at 06:00\, ends at 22:00.\n\nhttps://leekduck.com/even
  ts/超級-swampert-in-超級-團體戰-august-2026/
@@ -130,7 +92,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:shadow-giratina-altered-in-shadow-raids-august-2026
-DTSTAMP:20260812T021917Z
+DTSTAMP:20260814T021924Z
 SUMMARY:[RB] 暗影 騎拉帝納 (Altered Forme) in 暗影 團體戰
 DESCRIPTION:Starts at 06:00\, ends at 22:00.\n\nhttps://leekduck.com/even
  ts/暗影-騎拉帝納-altered-in-暗影-團體戰-august-2026/
@@ -148,7 +110,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:mega-gyarados-in-mega-raids-august-2026
-DTSTAMP:20260812T021917Z
+DTSTAMP:20260814T021924Z
 SUMMARY:[RB] 超級 暴鯉龍 in 超級 團體戰
 DESCRIPTION:Starts at 06:00\, ends at 22:00.\n\nhttps://leekduck.com/even
  ts/超級-暴鯉龍-in-超級-團體戰-august-2026/
@@ -165,7 +127,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:regirock-regice-registeel-in-5-star-raid-battles-august-2026
-DTSTAMP:20260812T021917Z
+DTSTAMP:20260814T021924Z
 SUMMARY:[RB] 雷吉洛克\, 雷吉艾斯\, and 雷吉斯奇魯 in 5-star 
  團體戰
 DESCRIPTION:Starts at 06:00\, ends at 22:00.\n\nhttps://leekduck.com/even
