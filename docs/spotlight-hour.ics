@@ -21,25 +21,8 @@ DTSTART:19700101T000000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:pokemonspotlighthour2026-08-13
-DTSTAMP:20260815T012654Z
-SUMMARY:[PSH] Wurmple 聚焦時刻
-DESCRIPTION:Starts at 18:00\, ends at 19:00.\n\nhttps://leekduck.com/even
- ts/pokemonspotlighthour2026-08-13/
-URL:https://leekduck.com/events/pokemonspotlighthour2026-08-13/
-IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/pokemonspotlig
- hthour.jpg
-DTSTART;TZID=Asia/Taipei:20260813T180000
-DTEND;TZID=Asia/Taipei:20260813T190000
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:[PSH] Wurmple 聚焦時刻
-TRIGGER:-PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:pokemonspotlighthour2026-08-20
-DTSTAMP:20260815T012654Z
+DTSTAMP:20260816T013833Z
 SUMMARY:[PSH] 鯉魚王 聚焦時刻
 DESCRIPTION:Starts at 18:00\, ends at 19:00.\n\nhttps://leekduck.com/even
  ts/pokemonspotlighthour2026-08-20/
@@ -56,7 +39,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:pokemonspotlighthour2026-08-27
-DTSTAMP:20260815T012654Z
+DTSTAMP:20260816T013833Z
 SUMMARY:[PSH] 猴怪 聚焦時刻
 DESCRIPTION:Starts at 18:00\, ends at 19:00.\n\nhttps://leekduck.com/even
  ts/pokemonspotlighthour2026-08-27/
