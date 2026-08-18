@@ -21,25 +21,8 @@ DTSTART:19700101T000000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:august-communityday2026
-DTSTAMP:20260817T013632Z
-SUMMARY:[CD] 偷兒狐 社群日
-DESCRIPTION:Starts at 14:00\, ends at 17:00.\n\nhttps://leekduck.com/even
- ts/august-communityday2026/
-URL:https://leekduck.com/events/august-communityday2026/
-IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/article-images
- /2026/2026-08-16-august-communityday2026/nickit-august-cd-2026.jpg
-DTSTART;TZID=Asia/Taipei:20260816T140000
-DTEND;TZID=Asia/Taipei:20260816T170000
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:[CD] 偷兒狐 社群日
-TRIGGER:-PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:september-communitydayclassic2026
-DTSTAMP:20260817T013632Z
+DTSTAMP:20260818T012610Z
 SUMMARY:[CD] September 經典社群日
 DESCRIPTION:Starts at 14:00\, ends at 17:00.\n\nhttps://leekduck.com/even
  ts/september-communitydayclassic2026/
@@ -55,7 +38,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:october-communityday2026
-DTSTAMP:20260817T013632Z
+DTSTAMP:20260818T012610Z
 SUMMARY:[CD] October 社群日
 DESCRIPTION:Starts at 14:00\, ends at 17:00.\n\nhttps://leekduck.com/even
  ts/october-communityday2026/
@@ -71,7 +54,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:november-communityday2026
-DTSTAMP:20260817T013632Z
+DTSTAMP:20260818T012610Z
 SUMMARY:[CD] November 社群日
 DESCRIPTION:Starts at 14:00\, ends at 17:00.\n\nhttps://leekduck.com/even
  ts/november-communityday2026/
