@@ -22,7 +22,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:raidhour20260819
-DTSTAMP:20260821T013732Z
+DTSTAMP:20260822T012613Z
 SUMMARY:[RH] 露奈雅拉 團體戰約會
 DESCRIPTION:Starts at 18:00\, ends at 19:00.\n\nhttps://leekduck.com/even
  ts/raidhour20260819/
@@ -38,7 +38,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:raidhour20260826
-DTSTAMP:20260821T013732Z
+DTSTAMP:20260822T012613Z
 SUMMARY:[RH] 雷吉洛克\, 雷吉艾斯\, and 雷吉斯奇魯 團體戰
  約會
 DESCRIPTION:Starts at 18:00\, ends at 19:00.\n\nhttps://leekduck.com/even
@@ -56,7 +56,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:raidhour20260902
-DTSTAMP:20260821T013732Z
+DTSTAMP:20260822T012613Z
 SUMMARY:[RH] 雷吉洛克\, 雷吉艾斯\, and 雷吉斯奇魯 團體戰
  約會
 DESCRIPTION:Starts at 18:00\, ends at 19:00.\n\nhttps://leekduck.com/even
