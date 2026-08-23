@@ -22,7 +22,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:gbl-forever-forward_great-league_scroll-cup-great-league-edition
-DTSTAMP:20260822T012613Z
+DTSTAMP:20260823T014041Z
 SUMMARY:[GBL] Great League and Scroll Cup: Great League Edition | Forever
   Forward
 DESCRIPTION:Starts at 20:00\, ends at 20:00.\n\nhttps://leekduck.com/even
@@ -42,7 +42,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gbl-forever-forward_great-league_ultra-league_master-league-split-3
-DTSTAMP:20260822T012613Z
+DTSTAMP:20260823T014041Z
 SUMMARY:[GBL] Great League\, Ultra League\, and Master League | Forever F
  orward
 DESCRIPTION:Starts at 20:00\, ends at 20:00.\n\nhttps://leekduck.com/even
@@ -63,7 +63,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:gbl-forever-forward_great-league_ultra-league_master-league-mega-edit
  ion
-DTSTAMP:20260822T012613Z
+DTSTAMP:20260823T014041Z
 SUMMARY:[GBL] Great League\, Ultra League\, and Master League: 超級 Edi
  tion | Forever Forward
 DESCRIPTION:Starts at 20:00\, ends at 20:00.\n\nhttps://leekduck.com/even
