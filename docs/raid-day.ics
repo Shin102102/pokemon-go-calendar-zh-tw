@@ -21,26 +21,8 @@ DTSTART:19700101T000000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:starmie-super-mega-raid-day-2026
-DTSTAMP:20260823T014041Z
-SUMMARY:[RD] Starmie Super 超級 團體戰日
-DESCRIPTION:Starts at 11:00\, ends at 17:00.\n\nhttps://leekduck.com/even
- ts/starmie-super-超級-團體戰-day-2026/
-URL:https://leekduck.com/events/starmie-super-mega-raid-day-2026/
-IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/article-images
- /2026/2026-08-22-starmie-super-mega-raid-day-2026/starmie-super-mega-rai
- d-day-2026.jpg
-DTSTART;TZID=Asia/Taipei:20260822T110000
-DTEND;TZID=Asia/Taipei:20260822T170000
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:[RD] Starmie Super 超級 團體戰日
-TRIGGER:-PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:super-mega-raid-day-september-2026
-DTSTAMP:20260823T014041Z
+DTSTAMP:20260824T013836Z
 SUMMARY:[RD] Super 超級 團體戰日
 DESCRIPTION:Starts at 14:00\, ends at 17:00.\n\nhttps://leekduck.com/even
  ts/super-超級-團體戰-day-september-2026/
@@ -57,7 +39,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:super-mega-raid-day-october-2026
-DTSTAMP:20260823T014041Z
+DTSTAMP:20260824T013836Z
 SUMMARY:[RD] Super 超級 團體戰日
 DESCRIPTION:Starts at 14:00\, ends at 17:00.\n\nhttps://leekduck.com/even
  ts/super-超級-團體戰-day-october-2026/
@@ -74,7 +56,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:super-mega-raid-day-november-2026
-DTSTAMP:20260823T014041Z
+DTSTAMP:20260824T013836Z
 SUMMARY:[RD] Super 超級 團體戰日
 DESCRIPTION:Starts at 14:00\, ends at 17:00.\n\nhttps://leekduck.com/even
  ts/super-超級-團體戰-day-november-2026/

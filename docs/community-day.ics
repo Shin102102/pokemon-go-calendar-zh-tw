@@ -22,7 +22,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:september-communitydayclassic2026
-DTSTAMP:20260823T014041Z
+DTSTAMP:20260824T013836Z
 SUMMARY:[CD] September 經典社群日
 DESCRIPTION:Starts at 14:00\, ends at 17:00.\n\nhttps://leekduck.com/even
  ts/september-communitydayclassic2026/
@@ -38,7 +38,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:october-communityday2026
-DTSTAMP:20260823T014041Z
+DTSTAMP:20260824T013836Z
 SUMMARY:[CD] October 社群日
 DESCRIPTION:Starts at 14:00\, ends at 17:00.\n\nhttps://leekduck.com/even
  ts/october-communityday2026/
@@ -54,7 +54,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:november-communityday2026
-DTSTAMP:20260823T014041Z
+DTSTAMP:20260824T013836Z
 SUMMARY:[CD] November 社群日
 DESCRIPTION:Starts at 14:00\, ends at 17:00.\n\nhttps://leekduck.com/even
  ts/november-communityday2026/
