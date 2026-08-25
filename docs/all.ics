@@ -22,7 +22,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:water-festival-2026
-DTSTAMP:20260824T013836Z
+DTSTAMP:20260825T013341Z
 SUMMARY:[E] 究極獎勵解鎖: Water Festival
 DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/even
  ts/water-festival-2026/
@@ -39,7 +39,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:max-mondays-2026-08-24
-DTSTAMP:20260824T013836Z
+DTSTAMP:20260825T013341Z
 SUMMARY:[MM] 極巨化 Hitmontop during 極巨星期一
 DESCRIPTION:Starts at 06:00\, ends at 21:00.\n\nhttps://leekduck.com/even
  ts/max-mondays-2026-08-24/
@@ -56,7 +56,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gbl-forever-forward_great-league_scroll-cup-great-league-edition
-DTSTAMP:20260824T013836Z
+DTSTAMP:20260825T013341Z
 SUMMARY:[GBL] Great League and Scroll Cup: Great League Edition | Forever
   Forward
 DESCRIPTION:Starts at 20:00\, ends at 20:00.\n\nhttps://leekduck.com/even
@@ -76,7 +76,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lunala-in-5-star-raid-battles-august-2026
-DTSTAMP:20260824T013836Z
+DTSTAMP:20260825T013341Z
 SUMMARY:[RB] 露奈雅拉 in 5-star 團體戰
 DESCRIPTION:Starts at 06:00\, ends at 22:00.\n\nhttps://leekduck.com/even
  ts/露奈雅拉-in-5-star-團體戰-battles-august-2026/
@@ -93,7 +93,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:mega-swampert-in-mega-raids-august-2026
-DTSTAMP:20260824T013836Z
+DTSTAMP:20260825T013341Z
 SUMMARY:[RB] 超級 Swampert in 超級 團體戰
 DESCRIPTION:Starts at 06:00\, ends at 22:00.\n\nhttps://leekduck.com/even
  ts/超級-swampert-in-超級-團體戰-august-2026/
@@ -110,7 +110,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:raidhour20260826
-DTSTAMP:20260824T013836Z
+DTSTAMP:20260825T013341Z
 SUMMARY:[RH] 雷吉洛克\, 雷吉艾斯\, and 雷吉斯奇魯 團體戰
  約會
 DESCRIPTION:Starts at 18:00\, ends at 19:00.\n\nhttps://leekduck.com/even
@@ -128,7 +128,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:pokemonspotlighthour2026-08-27
-DTSTAMP:20260824T013836Z
+DTSTAMP:20260825T013341Z
 SUMMARY:[PSH] 猴怪 聚焦時刻
 DESCRIPTION:Starts at 18:00\, ends at 19:00.\n\nhttps://leekduck.com/even
  ts/pokemonspotlighthour2026-08-27/
@@ -145,7 +145,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:pokemon-world-championships-2026-timed-research-twitch-drops
-DTSTAMP:20260824T013836Z
+DTSTAMP:20260825T013341Z
 SUMMARY:[R] Twitch Drops for 2026 Pokémon World Championships
 DESCRIPTION:Starts at 16:00\, ends at 03:00.\n\nhttps://leekduck.com/even
  ts/pokemon-world-championships-2026-timed-research-twitch-drops/
@@ -164,7 +164,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:pokemon-xp-2026-worlds
-DTSTAMP:20260824T013836Z
+DTSTAMP:20260825T013341Z
 SUMMARY:[E] PokémonXP &amp\; 2026 Worlds
 DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/even
  ts/pokemon-xp-2026-worlds/
@@ -181,7 +181,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:max-mondays-2026-08-31
-DTSTAMP:20260824T013836Z
+DTSTAMP:20260825T013341Z
 SUMMARY:[MM] 極巨化 伊布 during 極巨星期一
 DESCRIPTION:Starts at 06:00\, ends at 21:00.\n\nhttps://leekduck.com/even
  ts/max-mondays-2026-08-31/
@@ -198,7 +198,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gbl-forever-forward_great-league_ultra-league_master-league-split-3
-DTSTAMP:20260824T013836Z
+DTSTAMP:20260825T013341Z
 SUMMARY:[GBL] Great League\, Ultra League\, and Master League | Forever F
  orward
 DESCRIPTION:Starts at 20:00\, ends at 20:00.\n\nhttps://leekduck.com/even
@@ -218,7 +218,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:raidhour20260902
-DTSTAMP:20260824T013836Z
+DTSTAMP:20260825T013341Z
 SUMMARY:[RH] 雷吉洛克\, 雷吉艾斯\, and 雷吉斯奇魯 團體戰
  約會
 DESCRIPTION:Starts at 18:00\, ends at 19:00.\n\nhttps://leekduck.com/even
@@ -236,7 +236,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:mega-ascension
-DTSTAMP:20260824T013836Z
+DTSTAMP:20260825T013341Z
 SUMMARY:[E] 超級 Ascension
 DESCRIPTION:Starts at 10:00\, ends at 23:59.\n\nhttps://leekduck.com/even
  ts/超級-ascension/
@@ -253,7 +253,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:pokemon-go-fest-2026-mega-finale
-DTSTAMP:20260824T013836Z
+DTSTAMP:20260825T013341Z
 SUMMARY:[PGF] Pokémon GO Fest 2026: 超級 Finale
 DESCRIPTION:Starts at 10:00\, ends at 18:00.\n\nhttps://leekduck.com/even
  ts/pokemon-go-fest-2026-超級-finale/
@@ -271,7 +271,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:10th-anniversary-celebration
-DTSTAMP:20260824T013836Z
+DTSTAMP:20260825T013341Z
 SUMMARY:[E] 10th 週年慶 慶典 - Perfect 超夢 限時調查
 DESCRIPTION:Starts at 16:00\, ends at 23:59.\n\nhttps://leekduck.com/even
  ts/10th-週年慶-慶典/
@@ -289,7 +289,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:season-23-forever-forward
-DTSTAMP:20260824T013836Z
+DTSTAMP:20260825T013341Z
 SUMMARY:[S] Forever Forward
 DESCRIPTION:Starts at 10:00\, ends at 10:00.\n\nhttps://leekduck.com/even
  ts/賽季-23-forever-forward/
@@ -306,7 +306,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:go-pass-august-2026
-DTSTAMP:20260824T013836Z
+DTSTAMP:20260825T013341Z
 SUMMARY:[GP] GO Pass: August
 DESCRIPTION:Starts at 10:00\, ends at 10:00.\n\nhttps://leekduck.com/even
  ts/go-pass-august-2026/
@@ -324,7 +324,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:gbl-forever-forward_great-league_ultra-league_master-league-mega-edit
  ion
-DTSTAMP:20260824T013836Z
+DTSTAMP:20260825T013341Z
 SUMMARY:[GBL] Great League\, Ultra League\, and Master League: 超級 Edi
  tion | Forever Forward
 DESCRIPTION:Starts at 20:00\, ends at 20:00.\n\nhttps://leekduck.com/even
@@ -345,7 +345,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:shadow-giratina-altered-in-shadow-raids-august-2026
-DTSTAMP:20260824T013836Z
+DTSTAMP:20260825T013341Z
 SUMMARY:[RB] 暗影 騎拉帝納 (Altered Forme) in 暗影 團體戰
 DESCRIPTION:Starts at 06:00\, ends at 22:00.\n\nhttps://leekduck.com/even
  ts/暗影-騎拉帝納-altered-in-暗影-團體戰-august-2026/
@@ -363,7 +363,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:mega-gyarados-in-mega-raids-august-2026
-DTSTAMP:20260824T013836Z
+DTSTAMP:20260825T013341Z
 SUMMARY:[RB] 超級 暴鯉龍 in 超級 團體戰
 DESCRIPTION:Starts at 06:00\, ends at 22:00.\n\nhttps://leekduck.com/even
  ts/超級-暴鯉龍-in-超級-團體戰-august-2026/
@@ -380,7 +380,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:regirock-regice-registeel-in-5-star-raid-battles-august-2026
-DTSTAMP:20260824T013836Z
+DTSTAMP:20260825T013341Z
 SUMMARY:[RB] 雷吉洛克\, 雷吉艾斯\, and 雷吉斯奇魯 in 5-star 
  團體戰
 DESCRIPTION:Starts at 06:00\, ends at 22:00.\n\nhttps://leekduck.com/even
@@ -400,7 +400,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:september-communitydayclassic2026
-DTSTAMP:20260824T013836Z
+DTSTAMP:20260825T013341Z
 SUMMARY:[CD] September 經典社群日
 DESCRIPTION:Starts at 14:00\, ends at 17:00.\n\nhttps://leekduck.com/even
  ts/september-communitydayclassic2026/
@@ -416,7 +416,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:super-mega-raid-day-september-2026
-DTSTAMP:20260824T013836Z
+DTSTAMP:20260825T013341Z
 SUMMARY:[RD] Super 超級 團體戰日
 DESCRIPTION:Starts at 14:00\, ends at 17:00.\n\nhttps://leekduck.com/even
  ts/super-超級-團體戰-day-september-2026/
@@ -433,7 +433,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:catch-mastery-september-2026
-DTSTAMP:20260824T013836Z
+DTSTAMP:20260825T013341Z
 SUMMARY:[E] Catch Mastery
 DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/even
  ts/catch-mastery-september-2026/
@@ -450,7 +450,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lego-pokemon-go-2026
-DTSTAMP:20260824T013836Z
+DTSTAMP:20260825T013341Z
 SUMMARY:[E] LEGO Stores and Pokémon GO
 DESCRIPTION:Starts at 10:00\, ends at 23:59.\n\nhttps://leekduck.com/even
  ts/lego-pokemon-go-2026/
@@ -467,7 +467,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:max-battle-day-october-2026
-DTSTAMP:20260824T013836Z
+DTSTAMP:20260825T013341Z
 SUMMARY:[MB] 極巨對戰日
 DESCRIPTION:Starts at 14:00\, ends at 17:00.\n\nhttps://leekduck.com/even
  ts/max-battle-day-october-2026/
@@ -484,7 +484,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:october-communityday2026
-DTSTAMP:20260824T013836Z
+DTSTAMP:20260825T013341Z
 SUMMARY:[CD] October 社群日
 DESCRIPTION:Starts at 14:00\, ends at 17:00.\n\nhttps://leekduck.com/even
  ts/october-communityday2026/
@@ -500,7 +500,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:hatch-day-october-2026
-DTSTAMP:20260824T013836Z
+DTSTAMP:20260825T013341Z
 SUMMARY:[E] 孵化日
 DESCRIPTION:Starts at 11:00\, ends at 17:00.\n\nhttps://leekduck.com/even
  ts/hatch-day-october-2026/
@@ -517,7 +517,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:max-battle-day-october-24-2026
-DTSTAMP:20260824T013836Z
+DTSTAMP:20260825T013341Z
 SUMMARY:[MB] 極巨對戰日
 DESCRIPTION:Starts at 14:00\, ends at 17:00.\n\nhttps://leekduck.com/even
  ts/max-battle-day-october-24-2026/
@@ -534,7 +534,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:super-mega-raid-day-october-2026
-DTSTAMP:20260824T013836Z
+DTSTAMP:20260825T013341Z
 SUMMARY:[RD] Super 超級 團體戰日
 DESCRIPTION:Starts at 14:00\, ends at 17:00.\n\nhttps://leekduck.com/even
  ts/super-超級-團體戰-day-october-2026/
@@ -551,7 +551,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:november-communityday2026
-DTSTAMP:20260824T013836Z
+DTSTAMP:20260825T013341Z
 SUMMARY:[CD] November 社群日
 DESCRIPTION:Starts at 14:00\, ends at 17:00.\n\nhttps://leekduck.com/even
  ts/november-communityday2026/
@@ -567,7 +567,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:super-mega-raid-day-november-2026
-DTSTAMP:20260824T013836Z
+DTSTAMP:20260825T013341Z
 SUMMARY:[RD] Super 超級 團體戰日
 DESCRIPTION:Starts at 14:00\, ends at 17:00.\n\nhttps://leekduck.com/even
  ts/super-超級-團體戰-day-november-2026/
