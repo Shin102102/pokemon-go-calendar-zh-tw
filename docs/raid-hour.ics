@@ -22,7 +22,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:raidhour20260826
-DTSTAMP:20260825T013341Z
+DTSTAMP:20260826T013807Z
 SUMMARY:[RH] 雷吉洛克\, 雷吉艾斯\, and 雷吉斯奇魯 團體戰
  約會
 DESCRIPTION:Starts at 18:00\, ends at 19:00.\n\nhttps://leekduck.com/even
@@ -40,7 +40,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:raidhour20260902
-DTSTAMP:20260825T013341Z
+DTSTAMP:20260826T013807Z
 SUMMARY:[RH] 雷吉洛克\, 雷吉艾斯\, and 雷吉斯奇魯 團體戰
  約會
 DESCRIPTION:Starts at 18:00\, ends at 19:00.\n\nhttps://leekduck.com/even
@@ -53,6 +53,70 @@ BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:[RH] 雷吉洛克\, 雷吉艾斯\, and 雷吉斯奇魯 團體
  戰約會
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:raidhour20260909
+DTSTAMP:20260826T013807Z
+SUMMARY:[RH] 蒼響 (Hero of Many Battles) 團體戰約會
+DESCRIPTION:Starts at 18:00\, ends at 19:00.\n\nhttps://leekduck.com/even
+ ts/raidhour20260909/
+URL:https://leekduck.com/events/raidhour20260909/
+IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/raidhour.jpg
+DTSTART;TZID=Asia/Taipei:20260909T180000
+DTEND;TZID=Asia/Taipei:20260909T190000
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:[RH] 蒼響 (Hero of Many Battles) 團體戰約會
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:raidhour20260916
+DTSTAMP:20260826T013807Z
+SUMMARY:[RH] 藏瑪然特 (Hero of Many Battles) 團體戰約會
+DESCRIPTION:Starts at 18:00\, ends at 19:00.\n\nhttps://leekduck.com/even
+ ts/raidhour20260916/
+URL:https://leekduck.com/events/raidhour20260916/
+IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/raidhour.jpg
+DTSTART;TZID=Asia/Taipei:20260916T180000
+DTEND;TZID=Asia/Taipei:20260916T190000
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:[RH] 藏瑪然特 (Hero of Many Battles) 團體戰約會
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:raidhour20260923
+DTSTAMP:20260826T013807Z
+SUMMARY:[RH] Xurkitree\, Pheromosa\, and Buzzwole 團體戰約會
+DESCRIPTION:Starts at 18:00\, ends at 19:00.\n\nhttps://leekduck.com/even
+ ts/raidhour20260923/
+URL:https://leekduck.com/events/raidhour20260923/
+IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/raidhour.jpg
+DTSTART;TZID=Asia/Taipei:20260923T180000
+DTEND;TZID=Asia/Taipei:20260923T190000
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:[RH] Xurkitree\, Pheromosa\, and Buzzwole 團體戰約會
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:raidhour20260930
+DTSTAMP:20260826T013807Z
+SUMMARY:[RH] 哲爾尼亞斯 團體戰約會
+DESCRIPTION:Starts at 18:00\, ends at 19:00.\n\nhttps://leekduck.com/even
+ ts/raidhour20260930/
+URL:https://leekduck.com/events/raidhour20260930/
+IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/raidhour.jpg
+DTSTART;TZID=Asia/Taipei:20260930T180000
+DTEND;TZID=Asia/Taipei:20260930T190000
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:[RH] 哲爾尼亞斯 團體戰約會
 TRIGGER:-PT15M
 END:VALARM
 END:VEVENT

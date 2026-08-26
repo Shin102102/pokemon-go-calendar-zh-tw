@@ -21,25 +21,8 @@ DTSTART:19700101T000000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:max-mondays-2026-08-24
-DTSTAMP:20260825T013341Z
-SUMMARY:[MM] 極巨化 Hitmontop during 極巨星期一
-DESCRIPTION:Starts at 06:00\, ends at 21:00.\n\nhttps://leekduck.com/even
- ts/max-mondays-2026-08-24/
-URL:https://leekduck.com/events/max-mondays-2026-08-24/
-IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/max-battles-ka
- nto.jpg
-DTSTART;TZID=Asia/Taipei:20260824T060000
-DTEND;TZID=Asia/Taipei:20260824T210000
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:[MM] 極巨化 Hitmontop during 極巨星期一
-TRIGGER:-PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:max-mondays-2026-08-31
-DTSTAMP:20260825T013341Z
+DTSTAMP:20260826T013807Z
 SUMMARY:[MM] 極巨化 伊布 during 極巨星期一
 DESCRIPTION:Starts at 06:00\, ends at 21:00.\n\nhttps://leekduck.com/even
  ts/max-mondays-2026-08-31/
@@ -51,6 +34,76 @@ DTEND;TZID=Asia/Taipei:20260831T210000
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:[MM] 極巨化 伊布 during 極巨星期一
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:max-mondays-2026-09-07
+DTSTAMP:20260826T013807Z
+SUMMARY:[MM] 極巨化 拉魯拉絲 during 極巨星期一
+DESCRIPTION:Starts at 06:00\, ends at 21:00.\n\nhttps://leekduck.com/even
+ ts/max-mondays-2026-09-07/
+URL:https://leekduck.com/events/max-mondays-2026-09-07/
+IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/max-battles-ka
+ nto.jpg
+DTSTART;TZID=Asia/Taipei:20260907T060000
+DTEND;TZID=Asia/Taipei:20260907T210000
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:[MM] 極巨化 拉魯拉絲 during 極巨星期一
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:max-mondays-2026-09-14
+DTSTAMP:20260826T013807Z
+SUMMARY:[MM] 極巨化 獨角犀牛 during 極巨星期一
+DESCRIPTION:Starts at 06:00\, ends at 21:00.\n\nhttps://leekduck.com/even
+ ts/max-mondays-2026-09-14/
+URL:https://leekduck.com/events/max-mondays-2026-09-14/
+IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/max-battles-ka
+ nto.jpg
+DTSTART;TZID=Asia/Taipei:20260914T060000
+DTEND;TZID=Asia/Taipei:20260914T210000
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:[MM] 極巨化 獨角犀牛 during 極巨星期一
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:max-mondays-2026-09-21
+DTSTAMP:20260826T013807Z
+SUMMARY:[MM] 極巨化 急凍鳥\, 閃電鳥\, and 火焰鳥 during 極
+ 巨星期一
+DESCRIPTION:Starts at 06:00\, ends at 21:00.\n\nhttps://leekduck.com/even
+ ts/max-mondays-2026-09-21/
+URL:https://leekduck.com/events/max-mondays-2026-09-21/
+IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/max-battles-ka
+ nto.jpg
+DTSTART;TZID=Asia/Taipei:20260921T060000
+DTEND;TZID=Asia/Taipei:20260921T210000
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:[MM] 極巨化 急凍鳥\, 閃電鳥\, and 火焰鳥 during 
+ 極巨星期一
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:max-mondays-2026-09-28
+DTSTAMP:20260826T013807Z
+SUMMARY:[MM] 極巨化 淚眼蜥 during 極巨星期一
+DESCRIPTION:Starts at 06:00\, ends at 21:00.\n\nhttps://leekduck.com/even
+ ts/max-mondays-2026-09-28/
+URL:https://leekduck.com/events/max-mondays-2026-09-28/
+IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/max-battles-ka
+ nto.jpg
+DTSTART;TZID=Asia/Taipei:20260928T060000
+DTEND;TZID=Asia/Taipei:20260928T210000
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:[MM] 極巨化 淚眼蜥 during 極巨星期一
 TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
