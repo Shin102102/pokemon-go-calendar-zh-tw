@@ -22,7 +22,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:pokemon-xp-2026-worlds
-DTSTAMP:20260827T083027Z
+DTSTAMP:20260828T104404Z
 SUMMARY:[E] PokémonXP &amp\; 2026 Worlds
 DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/even
  ts/pokemon-xp-2026-worlds/
@@ -39,7 +39,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:mega-ascension
-DTSTAMP:20260827T083027Z
+DTSTAMP:20260828T104404Z
 SUMMARY:[E] 超級 Ascension
 DESCRIPTION:Starts at 10:00\, ends at 23:59.\n\nhttps://leekduck.com/even
  ts/超級-ascension/
@@ -56,7 +56,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:10th-anniversary-celebration
-DTSTAMP:20260827T083027Z
+DTSTAMP:20260828T104404Z
 SUMMARY:[E] 10th 週年慶 慶典 - Perfect 超夢 限時調查
 DESCRIPTION:Starts at 16:00\, ends at 23:59.\n\nhttps://leekduck.com/even
  ts/10th-週年慶-慶典/
@@ -74,7 +74,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:mega-squads-2026
-DTSTAMP:20260827T083027Z
+DTSTAMP:20260828T104404Z
 SUMMARY:[E] 超級 Squads
 DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/even
  ts/超級-squads-2026/
@@ -91,7 +91,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:unannounced-september-event-season-24
-DTSTAMP:20260827T083027Z
+DTSTAMP:20260828T104404Z
 SUMMARY:[E] Unannounced 活動
 DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/even
  ts/unannounced-september-活動-賽季-24/
@@ -107,25 +107,26 @@ TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:catch-mastery-september-2026
-DTSTAMP:20260827T083027Z
-SUMMARY:[E] Catch Mastery
+UID:catch-mastery-phantump-2026
+DTSTAMP:20260828T104404Z
+SUMMARY:[E] 小木靈 Catch Mastery
 DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/even
- ts/catch-mastery-september-2026/
-URL:https://leekduck.com/events/catch-mastery-september-2026/
-IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/events-default
- -img.jpg
+ ts/catch-mastery-小木靈-2026/
+URL:https://leekduck.com/events/catch-mastery-phantump-2026/
+IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/article-images
+ /2026/2026-09-26-catch-mastery-phantump-2026/phantump-catch-mastery.jpg?
+ v2
 DTSTART;TZID=Asia/Taipei:20260926T100000
 DTEND;TZID=Asia/Taipei:20260926T200000
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:[E] Catch Mastery
+DESCRIPTION:[E] 小木靈 Catch Mastery
 TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lego-pokemon-go-2026
-DTSTAMP:20260827T083027Z
+DTSTAMP:20260828T104404Z
 SUMMARY:[E] LEGO Stores and Pokémon GO
 DESCRIPTION:Starts at 10:00\, ends at 23:59.\n\nhttps://leekduck.com/even
  ts/lego-pokemon-go-2026/
@@ -142,7 +143,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:harvest-festival-2026
-DTSTAMP:20260827T083027Z
+DTSTAMP:20260828T104404Z
 SUMMARY:[E] Harvest Festival
 DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/even
  ts/harvest-festival-2026/
@@ -159,7 +160,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:hatch-day-october-2026
-DTSTAMP:20260827T083027Z
+DTSTAMP:20260828T104404Z
 SUMMARY:[E] 孵化日
 DESCRIPTION:Starts at 11:00\, ends at 17:00.\n\nhttps://leekduck.com/even
  ts/hatch-day-october-2026/
