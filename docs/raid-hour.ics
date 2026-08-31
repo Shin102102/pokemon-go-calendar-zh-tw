@@ -22,7 +22,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:raidhour20260902
-DTSTAMP:20260830T044320Z
+DTSTAMP:20260831T044702Z
 SUMMARY:[RH] 雷吉洛克\, 雷吉艾斯\, and 雷吉斯奇魯 團體戰
  約會
 DESCRIPTION:Starts at 18:00\, ends at 19:00.\n\nhttps://leekduck.com/even
@@ -40,7 +40,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:raidhour20260909
-DTSTAMP:20260830T044320Z
+DTSTAMP:20260831T044702Z
 SUMMARY:[RH] 蒼響 (Hero of Many Battles) 團體戰約會
 DESCRIPTION:Starts at 18:00\, ends at 19:00.\n\nhttps://leekduck.com/even
  ts/raidhour20260909/
@@ -56,7 +56,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:raidhour20260916
-DTSTAMP:20260830T044320Z
+DTSTAMP:20260831T044702Z
 SUMMARY:[RH] 藏瑪然特 (Hero of Many Battles) 團體戰約會
 DESCRIPTION:Starts at 18:00\, ends at 19:00.\n\nhttps://leekduck.com/even
  ts/raidhour20260916/
@@ -72,7 +72,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:raidhour20260923
-DTSTAMP:20260830T044320Z
+DTSTAMP:20260831T044702Z
 SUMMARY:[RH] Xurkitree\, Pheromosa\, and Buzzwole 團體戰約會
 DESCRIPTION:Starts at 18:00\, ends at 19:00.\n\nhttps://leekduck.com/even
  ts/raidhour20260923/
@@ -88,7 +88,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:raidhour20260930
-DTSTAMP:20260830T044320Z
+DTSTAMP:20260831T044702Z
 SUMMARY:[RH] 哲爾尼亞斯 團體戰約會
 DESCRIPTION:Starts at 18:00\, ends at 19:00.\n\nhttps://leekduck.com/even
  ts/raidhour20260930/
