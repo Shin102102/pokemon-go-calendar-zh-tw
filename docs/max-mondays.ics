@@ -22,7 +22,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:max-mondays-2026-08-31
-DTSTAMP:20260831T044702Z
+DTSTAMP:20260901T042651Z
 SUMMARY:[MM] 極巨化 伊布 during 極巨星期一
 DESCRIPTION:Starts at 06:00\, ends at 21:00.\n\nhttps://leekduck.com/even
  ts/max-mondays-2026-08-31/
@@ -39,7 +39,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:max-mondays-2026-09-07
-DTSTAMP:20260831T044702Z
+DTSTAMP:20260901T042651Z
 SUMMARY:[MM] 極巨化 拉魯拉絲 during 極巨星期一
 DESCRIPTION:Starts at 06:00\, ends at 21:00.\n\nhttps://leekduck.com/even
  ts/max-mondays-2026-09-07/
@@ -56,7 +56,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:max-mondays-2026-09-14
-DTSTAMP:20260831T044702Z
+DTSTAMP:20260901T042651Z
 SUMMARY:[MM] 極巨化 獨角犀牛 during 極巨星期一
 DESCRIPTION:Starts at 06:00\, ends at 21:00.\n\nhttps://leekduck.com/even
  ts/max-mondays-2026-09-14/
@@ -73,7 +73,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:max-mondays-2026-09-21
-DTSTAMP:20260831T044702Z
+DTSTAMP:20260901T042651Z
 SUMMARY:[MM] 極巨化 急凍鳥\, 閃電鳥\, and 火焰鳥 during 極
  巨星期一
 DESCRIPTION:Starts at 06:00\, ends at 21:00.\n\nhttps://leekduck.com/even
@@ -92,7 +92,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:max-mondays-2026-09-28
-DTSTAMP:20260831T044702Z
+DTSTAMP:20260901T042651Z
 SUMMARY:[MM] 極巨化 淚眼蜥 during 極巨星期一
 DESCRIPTION:Starts at 06:00\, ends at 21:00.\n\nhttps://leekduck.com/even
  ts/max-mondays-2026-09-28/

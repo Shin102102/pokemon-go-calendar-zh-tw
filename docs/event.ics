@@ -21,44 +21,8 @@ DTSTART:19700101T000000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:pokemon-world-championships-2026-san-francisco
-DTSTAMP:20260831T044702Z
-SUMMARY:[E] [San Francisco] 2026 Pokémon World Championships
-DESCRIPTION:Starts at 17:00\, ends at 03:00.\n\nhttps://leekduck.com/even
- ts/pokemon-world-championships-2026-san-francisco/
-URL:https://leekduck.com/events/pokemon-world-championships-2026-san-fran
- cisco/
-IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/article-images
- /2026/2026-08-28-pokemon-world-championships-2026-san-francisco/2026-wor
- lds-san-francisco.png
-DTSTART;VALUE=DATE:20260828
-DTEND;VALUE=DATE:20260901
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:[E] [San Francisco] 2026 Pokémon World Championships
-TRIGGER:-PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:pokemon-xp-2026-worlds
-DTSTAMP:20260831T044702Z
-SUMMARY:[E] PokémonXP &amp\; 2026 Worlds
-DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/even
- ts/pokemon-xp-2026-worlds/
-URL:https://leekduck.com/events/pokemon-xp-2026-worlds/
-IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/article-images
- /2026/2026-08-25-pokemon-xp-2026-worlds/pokemon-xp-2026-worlds.jpg
-DTSTART;VALUE=DATE:20260825
-DTEND;VALUE=DATE:20260831
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:[E] PokémonXP &amp\; 2026 Worlds
-TRIGGER:-PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:mega-ascension
-DTSTAMP:20260831T044702Z
+DTSTAMP:20260901T042651Z
 SUMMARY:[E] 超級 Ascension
 DESCRIPTION:Starts at 10:00\, ends at 23:59.\n\nhttps://leekduck.com/even
  ts/超級-ascension/
@@ -75,7 +39,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:10th-anniversary-celebration
-DTSTAMP:20260831T044702Z
+DTSTAMP:20260901T042651Z
 SUMMARY:[E] 10th 週年慶 慶典 - Perfect 超夢 限時調查
 DESCRIPTION:Starts at 16:00\, ends at 23:59.\n\nhttps://leekduck.com/even
  ts/10th-週年慶-慶典/
@@ -92,14 +56,14 @@ TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:mega-squads-2026
-DTSTAMP:20260831T044702Z
+UID:mega-squads
+DTSTAMP:20260901T042651Z
 SUMMARY:[E] 超級 Squads
 DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/even
- ts/超級-squads-2026/
-URL:https://leekduck.com/events/mega-squads-2026/
-IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/mega-default.j
- pg
+ ts/超級-squads/
+URL:https://leekduck.com/events/mega-squads/
+IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/article-images
+ /2026/2026-09-08-mega-squads/mega-squads.jpg
 DTSTART;VALUE=DATE:20260908
 DTEND;VALUE=DATE:20260915
 BEGIN:VALARM
@@ -110,7 +74,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:unannounced-september-event-season-24
-DTSTAMP:20260831T044702Z
+DTSTAMP:20260901T042651Z
 SUMMARY:[E] Unannounced 活動
 DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/even
  ts/unannounced-september-活動-賽季-24/
@@ -127,7 +91,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:catch-mastery-phantump-2026
-DTSTAMP:20260831T044702Z
+DTSTAMP:20260901T042651Z
 SUMMARY:[E] 小木靈 Catch Mastery
 DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/even
  ts/catch-mastery-小木靈-2026/
@@ -145,7 +109,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lego-pokemon-go-2026
-DTSTAMP:20260831T044702Z
+DTSTAMP:20260901T042651Z
 SUMMARY:[E] LEGO Stores and Pokémon GO
 DESCRIPTION:Starts at 10:00\, ends at 23:59.\n\nhttps://leekduck.com/even
  ts/lego-pokemon-go-2026/
@@ -162,7 +126,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:harvest-festival-2026
-DTSTAMP:20260831T044702Z
+DTSTAMP:20260901T042651Z
 SUMMARY:[E] Harvest Festival
 DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/even
  ts/harvest-festival-2026/
@@ -179,7 +143,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:hatch-day-october-2026
-DTSTAMP:20260831T044702Z
+DTSTAMP:20260901T042651Z
 SUMMARY:[E] 孵化日
 DESCRIPTION:Starts at 11:00\, ends at 17:00.\n\nhttps://leekduck.com/even
  ts/hatch-day-october-2026/

@@ -22,7 +22,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:pokemonspotlighthour2026-09-10
-DTSTAMP:20260831T044702Z
+DTSTAMP:20260901T042651Z
 SUMMARY:[PSH] 獨角蟲\, Kakuna\, and 大針蜂 聚焦時刻
 DESCRIPTION:Starts at 18:00\, ends at 19:00.\n\nhttps://leekduck.com/even
  ts/pokemonspotlighthour2026-09-10/
@@ -39,7 +39,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:pokemonspotlighthour2026-09-13
-DTSTAMP:20260831T044702Z
+DTSTAMP:20260901T042651Z
 SUMMARY:[PSH] 戴魯比 and Houndoom 聚焦時刻
 DESCRIPTION:Starts at 18:00\, ends at 19:00.\n\nhttps://leekduck.com/even
  ts/pokemonspotlighthour2026-09-13/
@@ -56,7 +56,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:pokemonspotlighthour2026-09-17
-DTSTAMP:20260831T044702Z
+DTSTAMP:20260901T042651Z
 SUMMARY:[PSH] Mystery 寶可夢聚焦時刻
 DESCRIPTION:Starts at 18:00\, ends at 19:00.\n\nhttps://leekduck.com/even
  ts/pokemonspotlighthour2026-09-17/
@@ -73,7 +73,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:pokemonspotlighthour2026-09-24
-DTSTAMP:20260831T044702Z
+DTSTAMP:20260901T042651Z
 SUMMARY:[PSH] 小拉達 聚焦時刻
 DESCRIPTION:Starts at 18:00\, ends at 19:00.\n\nhttps://leekduck.com/even
  ts/pokemonspotlighthour2026-09-24/

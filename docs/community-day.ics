@@ -22,23 +22,25 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:september-communitydayclassic2026
-DTSTAMP:20260831T044702Z
-SUMMARY:[CD] September 經典社群日
+DTSTAMP:20260901T042651Z
+SUMMARY:[CD] 圓陸鯊 經典社群日
 DESCRIPTION:Starts at 14:00\, ends at 17:00.\n\nhttps://leekduck.com/even
  ts/september-communitydayclassic2026/
 URL:https://leekduck.com/events/september-communitydayclassic2026/
-IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/cd-default.jpg
+IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/article-images
+ /2026/2026-09-12-september-communitydayclassic2026/gible-community-day-c
+ lassic.jpg
 DTSTART;TZID=Asia/Taipei:20260912T140000
 DTEND;TZID=Asia/Taipei:20260912T170000
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:[CD] September 經典社群日
+DESCRIPTION:[CD] 圓陸鯊 經典社群日
 TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:october-communityday2026
-DTSTAMP:20260831T044702Z
+DTSTAMP:20260901T042651Z
 SUMMARY:[CD] October 社群日
 DESCRIPTION:Starts at 14:00\, ends at 17:00.\n\nhttps://leekduck.com/even
  ts/october-communityday2026/
@@ -54,7 +56,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:november-communityday2026
-DTSTAMP:20260831T044702Z
+DTSTAMP:20260901T042651Z
 SUMMARY:[CD] November 社群日
 DESCRIPTION:Starts at 14:00\, ends at 17:00.\n\nhttps://leekduck.com/even
  ts/november-communityday2026/
