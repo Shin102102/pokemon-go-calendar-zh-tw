@@ -21,25 +21,26 @@ DTSTART:19700101T000000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:super-mega-raid-day-september-2026
-DTSTAMP:20260901T042651Z
-SUMMARY:[RD] Super 超級 團體戰日
+UID:staraptor-super-mega-raid-day-2026
+DTSTAMP:20260902T034959Z
+SUMMARY:[RD] Staraptor Super 超級 團體戰日
 DESCRIPTION:Starts at 14:00\, ends at 17:00.\n\nhttps://leekduck.com/even
- ts/super-超級-團體戰-day-september-2026/
-URL:https://leekduck.com/events/super-mega-raid-day-september-2026/
-IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/events-default
- -img.jpg
+ ts/staraptor-super-超級-團體戰-day-2026/
+URL:https://leekduck.com/events/staraptor-super-mega-raid-day-2026/
+IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/article-images
+ /2026/2026-09-19-staraptor-super-mega-raid-day-2026/staraptor-super-mega
+ -raid-day-2026.jpg
 DTSTART;TZID=Asia/Taipei:20260919T140000
 DTEND;TZID=Asia/Taipei:20260919T170000
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:[RD] Super 超級 團體戰日
+DESCRIPTION:[RD] Staraptor Super 超級 團體戰日
 TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:super-mega-raid-day-october-2026
-DTSTAMP:20260901T042651Z
+DTSTAMP:20260902T034959Z
 SUMMARY:[RD] Super 超級 團體戰日
 DESCRIPTION:Starts at 14:00\, ends at 17:00.\n\nhttps://leekduck.com/even
  ts/super-超級-團體戰-day-october-2026/
@@ -56,7 +57,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:super-mega-raid-day-november-2026
-DTSTAMP:20260901T042651Z
+DTSTAMP:20260902T034959Z
 SUMMARY:[RD] Super 超級 團體戰日
 DESCRIPTION:Starts at 14:00\, ends at 17:00.\n\nhttps://leekduck.com/even
  ts/super-超級-團體戰-day-november-2026/
