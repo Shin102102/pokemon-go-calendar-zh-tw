@@ -23,7 +23,7 @@ END:VTIMEZONE
 BEGIN:VEVENT
 UID:gbl-twilight-trails_great-league-mega-edition_ultra-league-mega-editi
  on_master-league-mega-edition-split-1
-DTSTAMP:20260902T034959Z
+DTSTAMP:20260903T034924Z
 SUMMARY:[GBL] Great League: 超級 Edition\, Ultra League: 超級 Edition
  \, and Master League: 超級 Edition | Twilight Trails
 DESCRIPTION:Starts at 20:00\, ends at 20:00.\n\nhttps://leekduck.com/even
@@ -45,7 +45,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:gbl-twilight-trails_great-league_ultra-league-mega-edition_willpower-
  cup-great-league-edition
-DTSTAMP:20260902T034959Z
+DTSTAMP:20260903T034924Z
 SUMMARY:[GBL] Great League\, Ultra League: 超級 Edition\, and Willpower
   Cup: Great League Edition | Twilight Trails
 DESCRIPTION:Starts at 20:00\, ends at 20:00.\n\nhttps://leekduck.com/even
@@ -67,7 +67,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:gbl-twilight-trails_ultra-league_master-league-mega-edition_retro-cup
  -great-league-edition
-DTSTAMP:20260902T034959Z
+DTSTAMP:20260903T034924Z
 SUMMARY:[GBL] Ultra League\, Master League: 超級 Edition\, and Retro Cu
  p: Great League Edition | Twilight Trails
 DESCRIPTION:Starts at 20:00\, ends at 20:00.\n\nhttps://leekduck.com/even
@@ -88,7 +88,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gbl-twilight-trails_master-league_mega-color-cup-great-league-edition
-DTSTAMP:20260902T034959Z
+DTSTAMP:20260903T034924Z
 SUMMARY:[GBL] Master League and 超級 Color Cup: Great League Edition | 
  Twilight Trails
 DESCRIPTION:Starts at 20:00\, ends at 20:00.\n\nhttps://leekduck.com/even
@@ -110,7 +110,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:gbl-twilight-trails_great-league-mega-edition_ultra-league-mega-editi
  on_master-league-mega-edition-split-2
-DTSTAMP:20260902T034959Z
+DTSTAMP:20260903T034924Z
 SUMMARY:[GBL] Great League: 超級 Edition\, Ultra League: 超級 Edition
  \, and Master League: 超級 Edition | Twilight Trails
 DESCRIPTION:Starts at 20:00\, ends at 20:00.\n\nhttps://leekduck.com/even
@@ -131,7 +131,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gbl-twilight-trails_great-league_ultra-league-mega-edition_little-cup
-DTSTAMP:20260902T034959Z
+DTSTAMP:20260903T034924Z
 SUMMARY:[GBL] Great League\, Ultra League: 超級 Edition\, and Little Cu
  p | Twilight Trails
 DESCRIPTION:Starts at 20:00\, ends at 20:00.\n\nhttps://leekduck.com/even
@@ -153,7 +153,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:gbl-twilight-trails_ultra-league_master-league-mega-edition_fantasy-c
  up-great-league-edition
-DTSTAMP:20260902T034959Z
+DTSTAMP:20260903T034924Z
 SUMMARY:[GBL] Ultra League\, Master League: 超級 Edition\, and Fantasy 
  Cup: Great League Edition | Twilight Trails
 DESCRIPTION:Starts at 20:00\, ends at 20:00.\n\nhttps://leekduck.com/even
@@ -175,7 +175,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:gbl-twilight-trails_master-league_mega-halloween-cup-great-league-edi
  tion
-DTSTAMP:20260902T034959Z
+DTSTAMP:20260903T034924Z
 SUMMARY:[GBL] Master League and 超級 Halloween Cup: Great League Editio
  n | Twilight Trails
 DESCRIPTION:Starts at 21:00\, ends at 21:00.\n\nhttps://leekduck.com/even
@@ -197,7 +197,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:gbl-twilight-trails_great-league-mega-edition_ultra-league-mega-editi
  on_master-league-mega-edition-split-3
-DTSTAMP:20260902T034959Z
+DTSTAMP:20260903T034924Z
 SUMMARY:[GBL] Great League: 超級 Edition\, Ultra League: 超級 Edition
  \, and Master League: 超級 Edition | Twilight Trails
 DESCRIPTION:Starts at 21:00\, ends at 21:00.\n\nhttps://leekduck.com/even
@@ -219,7 +219,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:gbl-twilight-trails_great-league_ultra-league-mega-edition_2026-go-la
  ic-cup
-DTSTAMP:20260902T034959Z
+DTSTAMP:20260903T034924Z
 SUMMARY:[GBL] Great League\, Ultra League: 超級 Edition\, and 2026 GO L
  AIC Cup | Twilight Trails
 DESCRIPTION:Starts at 21:00\, ends at 21:00.\n\nhttps://leekduck.com/even
@@ -241,7 +241,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:gbl-twilight-trails_ultra-league_master-league-mega-edition_2026-go-l
  aic-cup
-DTSTAMP:20260902T034959Z
+DTSTAMP:20260903T034924Z
 SUMMARY:[GBL] Ultra League\, Master League: 超級 Edition\, and 2026 GO 
  LAIC Cup | Twilight Trails
 DESCRIPTION:Starts at 21:00\, ends at 21:00.\n\nhttps://leekduck.com/even
@@ -262,7 +262,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gbl-twilight-trails_master-league_mega-catch-cup-great-league-edition
-DTSTAMP:20260902T034959Z
+DTSTAMP:20260903T034924Z
 SUMMARY:[GBL] Master League and 超級 Catch Cup: Great League Edition | 
  Twilight Trails
 DESCRIPTION:Starts at 21:00\, ends at 21:00.\n\nhttps://leekduck.com/even
