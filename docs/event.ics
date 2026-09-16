@@ -21,26 +21,9 @@ DTSTART:19700101T000000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:mega-squads
-DTSTAMP:20260915T041526Z
-SUMMARY:[E] 超級 Squads
-DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/even
- ts/超級-squads/
-URL:https://leekduck.com/events/mega-squads/
-IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/article-images
- /2026/2026-09-08-mega-squads/mega-squads.jpg
-DTSTART;VALUE=DATE:20260908
-DTEND;VALUE=DATE:20260915
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:[E] 超級 Squads
-TRIGGER:-PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:pokemon-horizons-the-series-celebration-event-2026
-DTSTAMP:20260915T041526Z
-SUMMARY:[E] Pokémon Horizons: The Series 慶典 活動
+DTSTAMP:20260916T041132Z
+SUMMARY:[E] Pokémon Horizons: The Series 慶典 活動 2026
 DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/even
  ts/pokemon-horizons-the-series-慶典-活動-2026/
 URL:https://leekduck.com/events/pokemon-horizons-the-series-celebration-e
@@ -52,13 +35,13 @@ DTSTART;VALUE=DATE:20260916
 DTEND;VALUE=DATE:20260923
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:[E] Pokémon Horizons: The Series 慶典 活動
+DESCRIPTION:[E] Pokémon Horizons: The Series 慶典 活動 2026
 TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:catch-mastery-phantump-2026
-DTSTAMP:20260915T041526Z
+DTSTAMP:20260916T041132Z
 SUMMARY:[E] 小木靈 Catch Mastery
 DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/even
  ts/catch-mastery-小木靈-2026/
@@ -76,7 +59,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lego-pokemon-go-2026
-DTSTAMP:20260915T041526Z
+DTSTAMP:20260916T041132Z
 SUMMARY:[E] LEGO Stores and Pokémon GO
 DESCRIPTION:Starts at 10:00\, ends at 23:59.\n\nhttps://leekduck.com/even
  ts/lego-pokemon-go-2026/
@@ -93,7 +76,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:patterns-of-the-wild-2026
-DTSTAMP:20260915T041526Z
+DTSTAMP:20260916T041132Z
 SUMMARY:[E] Patterns of the Wild
 DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/even
  ts/patterns-of-the-wild-2026/
@@ -110,7 +93,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:harvest-festival-2026
-DTSTAMP:20260915T041526Z
+DTSTAMP:20260916T041132Z
 SUMMARY:[E] Harvest Festival 2026: 啃果蟲 Picking
 DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/even
  ts/harvest-festival-2026/
@@ -127,7 +110,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:harvest-festival-taken-over-2026
-DTSTAMP:20260915T041526Z
+DTSTAMP:20260916T041132Z
 SUMMARY:[E] Harvest Festival: Taken Over
 DESCRIPTION:Starts at 00:00\, ends at 20:00.\n\nhttps://leekduck.com/even
  ts/harvest-festival-taken-over-2026/
@@ -145,7 +128,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:hatch-day-october-2026
-DTSTAMP:20260915T041526Z
+DTSTAMP:20260916T041132Z
 SUMMARY:[E] 孵化日
 DESCRIPTION:Starts at 11:00\, ends at 17:00.\n\nhttps://leekduck.com/even
  ts/hatch-day-october-2026/
