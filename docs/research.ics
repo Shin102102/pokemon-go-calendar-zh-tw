@@ -21,21 +21,21 @@ DTSTART:19700101T000000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:pokemon-world-championships-2026-timed-research-twitch-drops
-DTSTAMP:20260831T044702Z
-SUMMARY:[R] Twitch Drops for 2026 Pokémon World Championships
-DESCRIPTION:Starts at 16:00\, ends at 03:00.\n\nhttps://leekduck.com/even
- ts/pokemon-world-championships-2026-timed-research-twitch-drops/
-URL:https://leekduck.com/events/pokemon-world-championships-2026-timed-re
- search-twitch-drops/
+UID:pokemon-horizons-bonus-timed-research-2026
+DTSTAMP:20260919T035928Z
+SUMMARY:[R] Pokémon Horizons Bonus 限時調查
+DESCRIPTION:Starts at 00:00\, ends at 20:00.\n\nhttps://leekduck.com/even
+ ts/pokemon-horizons-bonus-timed-research-2026/
+URL:https://leekduck.com/events/pokemon-horizons-bonus-timed-research-202
+ 6/
 IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/article-images
- /2026/2026-08-28-pokemon-world-championships-2026-timed-research-twitch-
- drops/2026-worlds-go-drops.jpg
-DTSTART;VALUE=DATE:20260828
-DTEND;VALUE=DATE:20260901
+ /2026/2026-09-18-pokemon-horizons-bonus-timed-research-2026/pokemon-hori
+ zons-bonus-timed-research-2026.png
+DTSTART;VALUE=DATE:20260918
+DTEND;VALUE=DATE:20260923
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:[R] Twitch Drops for 2026 Pokémon World Championships
+DESCRIPTION:[R] Pokémon Horizons Bonus 限時調查
 TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
