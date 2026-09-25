@@ -21,24 +21,8 @@ DTSTART:19700101T000000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:raidhour20260923
-DTSTAMP:20260924T040338Z
-SUMMARY:[RH] Xurkitree\, Pheromosa\, and Buzzwole 團體戰約會
-DESCRIPTION:Starts at 18:00\, ends at 19:00.\n\nhttps://leekduck.com/even
- ts/raidhour20260923/
-URL:https://leekduck.com/events/raidhour20260923/
-IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/raidhour.jpg
-DTSTART;TZID=Asia/Taipei:20260923T180000
-DTEND;TZID=Asia/Taipei:20260923T190000
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:[RH] Xurkitree\, Pheromosa\, and Buzzwole 團體戰約會
-TRIGGER:-PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:raidhour20260930
-DTSTAMP:20260924T040338Z
+DTSTAMP:20260925T041743Z
 SUMMARY:[RH] 哲爾尼亞斯 團體戰約會
 DESCRIPTION:Starts at 18:00\, ends at 19:00.\n\nhttps://leekduck.com/even
  ts/raidhour20260930/
@@ -54,7 +38,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:raidhour20261007
-DTSTAMP:20260924T040338Z
+DTSTAMP:20260925T041743Z
 SUMMARY:[RH] 伊裴爾塔爾 團體戰約會
 DESCRIPTION:Starts at 18:00\, ends at 19:00.\n\nhttps://leekduck.com/even
  ts/raidhour20261007/
@@ -70,7 +54,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:raidhour20261014
-DTSTAMP:20260924T040338Z
+DTSTAMP:20260925T041743Z
 SUMMARY:[RH] 帝牙盧卡 團體戰約會
 DESCRIPTION:Starts at 18:00\, ends at 19:00.\n\nhttps://leekduck.com/even
  ts/raidhour20261014/
@@ -86,7 +70,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:raidhour20261021
-DTSTAMP:20260924T040338Z
+DTSTAMP:20260925T041743Z
 SUMMARY:[RH] 帕路奇亞 團體戰約會
 DESCRIPTION:Starts at 18:00\, ends at 19:00.\n\nhttps://leekduck.com/even
  ts/raidhour20261021/
@@ -102,7 +86,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:raidhour20261028
-DTSTAMP:20260924T040338Z
+DTSTAMP:20260925T041743Z
 SUMMARY:[RH] 騎拉帝納 (Origin Forme) 團體戰約會
 DESCRIPTION:Starts at 18:00\, ends at 19:00.\n\nhttps://leekduck.com/even
  ts/raidhour20261028/
