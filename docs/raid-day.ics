@@ -21,25 +21,25 @@ DTSTART:19700101T000000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:super-mega-raid-day-october-2026
-DTSTAMP:20261013T061533Z
-SUMMARY:[RD] Super 超級 團體戰日
+UID:chandelure-super-mega-raid-day-2026
+DTSTAMP:20261014T041718Z
+SUMMARY:[RD] Chandelure Super 超級 團體戰日
 DESCRIPTION:Starts at 14:00\, ends at 17:00.\n\nhttps://leekduck.com/even
- ts/super-超級-團體戰-day-october-2026/
-URL:https://leekduck.com/events/super-mega-raid-day-october-2026/
-IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/events-default
- -img.jpg
+ ts/chandelure-super-超級-團體戰-day-2026/
+URL:https://leekduck.com/events/chandelure-super-mega-raid-day-2026/
+IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/chandelure-sup
+ er-mega-raid-day-2026.jpg
 DTSTART;TZID=Asia/Taipei:20261031T140000
 DTEND;TZID=Asia/Taipei:20261031T170000
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:[RD] Super 超級 團體戰日
+DESCRIPTION:[RD] Chandelure Super 超級 團體戰日
 TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:super-mega-raid-day-november-2026
-DTSTAMP:20261013T061533Z
+DTSTAMP:20261014T041718Z
 SUMMARY:[RD] Super 超級 團體戰日
 DESCRIPTION:Starts at 14:00\, ends at 17:00.\n\nhttps://leekduck.com/even
  ts/super-超級-團體戰-day-november-2026/
