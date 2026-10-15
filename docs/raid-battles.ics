@@ -21,43 +21,8 @@ DTSTART:19700101T000000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:mega-blastoise-in-mega-raids-october-2026
-DTSTAMP:20261014T041718Z
-SUMMARY:[RB] 超級 水箭龜 in 超級 團體戰
-DESCRIPTION:Starts at 06:00\, ends at 22:00.\n\nhttps://leekduck.com/even
- ts/超級-水箭龜-in-超級-團體戰-october-2026/
-URL:https://leekduck.com/events/mega-blastoise-in-mega-raids-october-2026
- /
-IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/mega-default.j
- pg
-DTSTART;VALUE=DATE:20261007
-DTEND;VALUE=DATE:20261014
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:[RB] 超級 水箭龜 in 超級 團體戰
-TRIGGER:-PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:yveltal-in-5-star-raid-battles-october-2026
-DTSTAMP:20261014T041718Z
-SUMMARY:[RB] 伊裴爾塔爾 in 5-star 團體戰
-DESCRIPTION:Starts at 06:00\, ends at 22:00.\n\nhttps://leekduck.com/even
- ts/伊裴爾塔爾-in-5-star-團體戰-battles-october-2026/
-URL:https://leekduck.com/events/yveltal-in-5-star-raid-battles-october-20
- 26/
-IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/yveltal-2.jpg
-DTSTART;VALUE=DATE:20261007
-DTEND;VALUE=DATE:20261014
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:[RB] 伊裴爾塔爾 in 5-star 團體戰
-TRIGGER:-PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:dialga-in-5-star-raid-battles-october-2026
-DTSTAMP:20261014T041718Z
+DTSTAMP:20261015T035957Z
 SUMMARY:[RB] 帝牙盧卡 in 5-star 團體戰
 DESCRIPTION:Starts at 06:00\, ends at 22:00.\n\nhttps://leekduck.com/even
  ts/帝牙盧卡-in-5-star-團體戰-battles-october-2026/
@@ -75,7 +40,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:mega-dragonite-in-mega-raids-october-2026
-DTSTAMP:20261014T041718Z
+DTSTAMP:20261015T035957Z
 SUMMARY:[RB] 超級 快龍 in 超級 團體戰
 DESCRIPTION:Starts at 06:00\, ends at 22:00.\n\nhttps://leekduck.com/even
  ts/超級-快龍-in-超級-團體戰-october-2026/
@@ -93,7 +58,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:mega-charizard-x-mega-charizard-y-in-mega-raids-october-2026
-DTSTAMP:20261014T041718Z
+DTSTAMP:20261015T035957Z
 SUMMARY:[RB] 超級 噴火龍 X and 超級 噴火龍 Y in 超級 團體
  戰
 DESCRIPTION:Starts at 06:00\, ends at 22:00.\n\nhttps://leekduck.com/even
@@ -114,7 +79,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:palkia-in-5-star-raid-battles-october-2026
-DTSTAMP:20261014T041718Z
+DTSTAMP:20261015T035957Z
 SUMMARY:[RB] 帕路奇亞 in 5-star 團體戰
 DESCRIPTION:Starts at 06:00\, ends at 22:00.\n\nhttps://leekduck.com/even
  ts/帕路奇亞-in-5-star-團體戰-battles-october-2026/
@@ -131,7 +96,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:shadow-landorus-incarnate-forme-in-shadow-raids-october-2026
-DTSTAMP:20261014T041718Z
+DTSTAMP:20261015T035957Z
 SUMMARY:[RB] 暗影 土地雲 (Incarnate Forme) in 暗影 團體戰
 DESCRIPTION:Starts at 06:00\, ends at 22:00.\n\nhttps://leekduck.com/even
  ts/暗影-土地雲-incarnate-forme-in-暗影-團體戰-october-2026/
@@ -149,7 +114,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:giratina-origin-forme-in-5-star-raid-battles-october-2026
-DTSTAMP:20261014T041718Z
+DTSTAMP:20261015T035957Z
 SUMMARY:[RB] 騎拉帝納 (Origin Forme) in 5-star 團體戰
 DESCRIPTION:Starts at 06:00\, ends at 22:00.\n\nhttps://leekduck.com/even
  ts/騎拉帝納-origin-forme-in-5-star-團體戰-battles-october-2026/
@@ -167,7 +132,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:mega-sableye-in-mega-raids-october-2026
-DTSTAMP:20261014T041718Z
+DTSTAMP:20261015T035957Z
 SUMMARY:[RB] 超級 勾魂眼 in 超級 團體戰
 DESCRIPTION:Starts at 06:00\, ends at 22:00.\n\nhttps://leekduck.com/even
  ts/超級-勾魂眼-in-超級-團體戰-october-2026/
