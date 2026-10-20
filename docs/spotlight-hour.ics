@@ -22,7 +22,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:pokemonspotlighthour2026-10-22
-DTSTAMP:20261019T040153Z
+DTSTAMP:20261020T041456Z
 SUMMARY:[PSH] 睡睡菇 聚焦時刻
 DESCRIPTION:Starts at 18:00\, ends at 19:00.\n\nhttps://leekduck.com/even
  ts/pokemonspotlighthour2026-10-22/
@@ -39,7 +39,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:pokemonspotlighthour2026-10-29
-DTSTAMP:20261019T040153Z
+DTSTAMP:20261020T041456Z
 SUMMARY:[PSH] 鬼斯 聚焦時刻
 DESCRIPTION:Starts at 18:00\, ends at 19:00.\n\nhttps://leekduck.com/even
  ts/pokemonspotlighthour2026-10-29/
@@ -51,6 +51,40 @@ DTEND;TZID=Asia/Taipei:20261029T190000
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:[PSH] 鬼斯 聚焦時刻
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pokemonspotlighthour2026-11-05
+DTSTAMP:20261020T041456Z
+SUMMARY:[PSH] 熊寶寶 wearing a witch hat 聚焦時刻
+DESCRIPTION:Starts at 18:00\, ends at 19:00.\n\nhttps://leekduck.com/even
+ ts/pokemonspotlighthour2026-11-05/
+URL:https://leekduck.com/events/pokemonspotlighthour2026-11-05/
+IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/pokemonspotlig
+ hthour.jpg
+DTSTART;TZID=Asia/Taipei:20261105T180000
+DTEND;TZID=Asia/Taipei:20261105T190000
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:[PSH] 熊寶寶 wearing a witch hat 聚焦時刻
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pokemonspotlighthour2026-11-26
+DTSTAMP:20261020T041457Z
+SUMMARY:[PSH] 嗡蝠 聚焦時刻
+DESCRIPTION:Starts at 18:00\, ends at 19:00.\n\nhttps://leekduck.com/even
+ ts/pokemonspotlighthour2026-11-26/
+URL:https://leekduck.com/events/pokemonspotlighthour2026-11-26/
+IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/pokemonspotlig
+ hthour.jpg
+DTSTART;TZID=Asia/Taipei:20261126T180000
+DTEND;TZID=Asia/Taipei:20261126T190000
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:[PSH] 嗡蝠 聚焦時刻
 TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
