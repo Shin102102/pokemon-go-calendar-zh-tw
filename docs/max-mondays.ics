@@ -22,7 +22,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:max-mondays-2026-10-26
-DTSTAMP:20261022T040345Z
+DTSTAMP:20261023T040722Z
 SUMMARY:[MM] 極巨化 勾魂眼 during 極巨星期一
 DESCRIPTION:Starts at 06:00\, ends at 21:00.\n\nhttps://leekduck.com/even
  ts/max-mondays-2026-10-26/
@@ -39,7 +39,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:max-mondays-2026-11-02
-DTSTAMP:20261022T040345Z
+DTSTAMP:20261023T040722Z
 SUMMARY:[MM] 極巨化 腕力 during 極巨星期一
 DESCRIPTION:Starts at 06:00\, ends at 21:00.\n\nhttps://leekduck.com/even
  ts/max-mondays-2026-11-02/
@@ -56,7 +56,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:max-mondays-2026-11-16
-DTSTAMP:20261022T040345Z
+DTSTAMP:20261023T040722Z
 SUMMARY:[MM] 極巨星期一: Pokémon to be announced
 DESCRIPTION:Starts at 06:00\, ends at 21:00.\n\nhttps://leekduck.com/even
  ts/max-mondays-2026-11-16/
@@ -73,7 +73,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:max-mondays-2026-11-23
-DTSTAMP:20261022T040345Z
+DTSTAMP:20261023T040722Z
 SUMMARY:[MM] 極巨化 妙喵 during 極巨星期一
 DESCRIPTION:Starts at 06:00\, ends at 21:00.\n\nhttps://leekduck.com/even
  ts/max-mondays-2026-11-23/
@@ -90,7 +90,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:max-mondays-2026-11-30
-DTSTAMP:20261022T040345Z
+DTSTAMP:20261023T040722Z
 SUMMARY:[MM] 極巨化 幾何雪花 during 極巨星期一
 DESCRIPTION:Starts at 06:00\, ends at 21:00.\n\nhttps://leekduck.com/even
  ts/max-mondays-2026-11-30/
