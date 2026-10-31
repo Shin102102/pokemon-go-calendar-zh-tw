@@ -22,7 +22,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:raidhour20261028
-DTSTAMP:20261030T050718Z
+DTSTAMP:20261031T045333Z
 SUMMARY:[RH] 騎拉帝納 (Origin Forme) 團體戰約會
 DESCRIPTION:Starts at 18:00\, ends at 19:00.\n\nhttps://leekduck.com/even
  ts/raidhour20261028/
@@ -38,7 +38,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:raidhour20261104
-DTSTAMP:20261030T050718Z
+DTSTAMP:20261031T045333Z
 SUMMARY:[RH] 騎拉帝納 (Altered Forme) 團體戰約會
 DESCRIPTION:Starts at 18:00\, ends at 19:00.\n\nhttps://leekduck.com/even
  ts/raidhour20261104/
@@ -54,7 +54,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:raidhour20261118
-DTSTAMP:20261030T050718Z
+DTSTAMP:20261031T045333Z
 SUMMARY:[RH] 克雷色利亞 and 達克萊伊 團體戰約會
 DESCRIPTION:Starts at 18:00\, ends at 19:00.\n\nhttps://leekduck.com/even
  ts/raidhour20261118/
@@ -70,7 +70,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:raidhour20261125
-DTSTAMP:20261030T050718Z
+DTSTAMP:20261031T045333Z
 SUMMARY:[RH] 代歐奇希斯 (Normal\, Defense\, Attack\, and Speed Forme
  s) 團體戰約會
 DESCRIPTION:Starts at 18:00\, ends at 19:00.\n\nhttps://leekduck.com/even
