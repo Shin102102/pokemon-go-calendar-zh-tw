@@ -21,25 +21,8 @@ DTSTART:19700101T000000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:chandelure-super-mega-raid-day-2026
-DTSTAMP:20261101T052008Z
-SUMMARY:[RD] Chandelure Super 超級 團體戰日
-DESCRIPTION:Starts at 14:00\, ends at 17:00.\n\nhttps://leekduck.com/even
- ts/chandelure-super-超級-團體戰-day-2026/
-URL:https://leekduck.com/events/chandelure-super-mega-raid-day-2026/
-IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/chandelure-sup
- er-mega-raid-day-2026.jpg
-DTSTART;TZID=Asia/Taipei:20261031T140000
-DTEND;TZID=Asia/Taipei:20261031T170000
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:[RD] Chandelure Super 超級 團體戰日
-TRIGGER:-PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:halloween-2026-part-1
-DTSTAMP:20261101T052008Z
+DTSTAMP:20261102T051907Z
 SUMMARY:[E] Pokémon GO Halloween 2026 Part I
 DESCRIPTION:Starts at 10:00\, ends at 10:00.\n\nhttps://leekduck.com/even
  ts/halloween-2026-part-1/
@@ -56,7 +39,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:max-mondays-2026-11-02
-DTSTAMP:20261101T052008Z
+DTSTAMP:20261102T051907Z
 SUMMARY:[MM] 極巨化 腕力 during 極巨星期一
 DESCRIPTION:Starts at 06:00\, ends at 21:00.\n\nhttps://leekduck.com/even
  ts/max-mondays-2026-11-02/
@@ -73,7 +56,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:go-pass-october-2026
-DTSTAMP:20261101T052008Z
+DTSTAMP:20261102T051907Z
 SUMMARY:[GP] GO Pass: October
 DESCRIPTION:Starts at 10:00\, ends at 10:00.\n\nhttps://leekduck.com/even
  ts/go-pass-october-2026/
@@ -91,7 +74,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:gbl-twilight-trails_master-league_mega-halloween-cup-great-league-edi
  tion
-DTSTAMP:20261101T052008Z
+DTSTAMP:20261102T051907Z
 SUMMARY:[GBL] Master League and 超級 Halloween Cup: Great League Editio
  n | Twilight Trails
 DESCRIPTION:Starts at 21:00\, ends at 21:00.\n\nhttps://leekduck.com/even
@@ -112,7 +95,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:shadow-landorus-incarnate-forme-in-shadow-raids-october-2026
-DTSTAMP:20261101T052008Z
+DTSTAMP:20261102T051907Z
 SUMMARY:[RB] 暗影 土地雲 (Incarnate Forme) in 暗影 團體戰
 DESCRIPTION:Starts at 06:00\, ends at 22:00.\n\nhttps://leekduck.com/even
  ts/暗影-土地雲-incarnate-forme-in-暗影-團體戰-october-2026/
@@ -130,7 +113,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:giratina-origin-forme-in-5-star-raid-battles-october-2026
-DTSTAMP:20261101T052008Z
+DTSTAMP:20261102T051907Z
 SUMMARY:[RB] 騎拉帝納 (Origin Forme) in 5-star 團體戰
 DESCRIPTION:Starts at 06:00\, ends at 22:00.\n\nhttps://leekduck.com/even
  ts/騎拉帝納-origin-forme-in-5-star-團體戰-battles-october-2026/
@@ -148,7 +131,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:raidhour20261104
-DTSTAMP:20261101T052008Z
+DTSTAMP:20261102T051907Z
 SUMMARY:[RH] 騎拉帝納 (Altered Forme) 團體戰約會
 DESCRIPTION:Starts at 18:00\, ends at 19:00.\n\nhttps://leekduck.com/even
  ts/raidhour20261104/
@@ -164,7 +147,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:pokemonspotlighthour2026-11-05
-DTSTAMP:20261101T052008Z
+DTSTAMP:20261102T051907Z
 SUMMARY:[PSH] 熊寶寶 wearing a witch hat 聚焦時刻
 DESCRIPTION:Starts at 18:00\, ends at 19:00.\n\nhttps://leekduck.com/even
  ts/pokemonspotlighthour2026-11-05/
@@ -181,7 +164,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:halloween-2026-part-2
-DTSTAMP:20261101T052008Z
+DTSTAMP:20261102T051907Z
 SUMMARY:[E] Pokémon GO Halloween 2026 Part II
 DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/even
  ts/halloween-2026-part-2/
@@ -198,7 +181,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:pokemon-go-wild-area-2026-sendai-japan
-DTSTAMP:20261101T052008Z
+DTSTAMP:20261102T051907Z
 SUMMARY:[WA] Pokémon GO Wild Area 2026: Sendai • Tohoku
 DESCRIPTION:Starts at 01:00\, ends at 09:00.\n\nhttps://leekduck.com/even
  ts/pokemon-go-wild-area-2026-sendai-japan/
@@ -215,7 +198,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:pokemon-go-wild-area-2026-mexico-city
-DTSTAMP:20261101T052008Z
+DTSTAMP:20261102T051907Z
 SUMMARY:[WA] Pokémon GO Wild Area 2026: Mexico City
 DESCRIPTION:Starts at 16:00\, ends at 00:00.\n\nhttps://leekduck.com/even
  ts/pokemon-go-wild-area-2026-mexico-city/
@@ -232,7 +215,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:mega-sableye-in-mega-raids-october-2026
-DTSTAMP:20261101T052008Z
+DTSTAMP:20261102T051907Z
 SUMMARY:[RB] 超級 勾魂眼 in 超級 團體戰
 DESCRIPTION:Starts at 06:00\, ends at 22:00.\n\nhttps://leekduck.com/even
  ts/超級-勾魂眼-in-超級-團體戰-october-2026/
@@ -249,7 +232,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:giratina-altered-forme-in-5-star-raid-battles-november-2026
-DTSTAMP:20261101T052008Z
+DTSTAMP:20261102T051907Z
 SUMMARY:[RB] 騎拉帝納 (Altered Forme) in 5-star 團體戰
 DESCRIPTION:Starts at 06:00\, ends at 22:00.\n\nhttps://leekduck.com/even
  ts/騎拉帝納-altered-forme-in-5-star-團體戰-battles-november-2026/
@@ -267,7 +250,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:shadow-tornadus-incarnate-forme-in-shadow-raids-november-4-2026
-DTSTAMP:20261101T052008Z
+DTSTAMP:20261102T051907Z
 SUMMARY:[RB] 暗影 龍捲雲 (Incarnate Forme) in 暗影 團體戰
 DESCRIPTION:Starts at 06:00\, ends at 22:00.\n\nhttps://leekduck.com/even
  ts/暗影-龍捲雲-incarnate-forme-in-暗影-團體戰-november-4-2026/
@@ -286,7 +269,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:gbl-twilight-trails_great-league-mega-edition_ultra-league-mega-editi
  on_master-league-mega-edition-split-3
-DTSTAMP:20261101T052008Z
+DTSTAMP:20261102T051907Z
 SUMMARY:[GBL] Great League: 超級 Edition\, Ultra League: 超級 Edition
  \, and Master League: 超級 Edition | Twilight Trails
 DESCRIPTION:Starts at 21:00\, ends at 21:00.\n\nhttps://leekduck.com/even
@@ -307,7 +290,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:pokemon-night-out-london-2026
-DTSTAMP:20261101T052008Z
+DTSTAMP:20261102T051907Z
 SUMMARY:[E] Pokémon Night Out 2026 - London
 DESCRIPTION:Starts at 18:00\, ends at 22:30.\n\nhttps://leekduck.com/even
  ts/pokemon-night-out-london-2026/
@@ -324,7 +307,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:into-the-wild-2026
-DTSTAMP:20261101T052008Z
+DTSTAMP:20261102T051907Z
 SUMMARY:[E] Into the Wild
 DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/even
  ts/into-the-wild-2026/
@@ -341,7 +324,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:pokemon-go-wild-area-2026-global
-DTSTAMP:20261101T052008Z
+DTSTAMP:20261102T051907Z
 SUMMARY:[WA] Pokémon GO Wild Area 2026: 全球
 DESCRIPTION:Starts at 10:00\, ends at 18:00.\n\nhttps://leekduck.com/even
  ts/pokemon-go-wild-area-2026-全球/
@@ -358,7 +341,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:max-mondays-2026-11-16
-DTSTAMP:20261101T052008Z
+DTSTAMP:20261102T051907Z
 SUMMARY:[MM] 極巨星期一: Pokémon to be announced
 DESCRIPTION:Starts at 06:00\, ends at 21:00.\n\nhttps://leekduck.com/even
  ts/max-mondays-2026-11-16/
@@ -376,7 +359,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:gbl-twilight-trails_great-league_ultra-league-mega-edition_2026-go-la
  ic-cup
-DTSTAMP:20261101T052008Z
+DTSTAMP:20261102T051907Z
 SUMMARY:[GBL] Great League\, Ultra League: 超級 Edition\, and 2026 GO L
  AIC Cup | Twilight Trails
 DESCRIPTION:Starts at 21:00\, ends at 21:00.\n\nhttps://leekduck.com/even
@@ -397,7 +380,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:raidhour20261118
-DTSTAMP:20261101T052008Z
+DTSTAMP:20261102T051907Z
 SUMMARY:[RH] 克雷色利亞 and 達克萊伊 團體戰約會
 DESCRIPTION:Starts at 18:00\, ends at 19:00.\n\nhttps://leekduck.com/even
  ts/raidhour20261118/
@@ -413,7 +396,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:pokemonspotlighthour2026-11-19
-DTSTAMP:20261101T052008Z
+DTSTAMP:20261102T051907Z
 SUMMARY:[PSH] 敲音猴\, 炎兔兒\, and 淚眼蜥 聚焦時刻
 DESCRIPTION:Starts at 18:00\, ends at 19:00.\n\nhttps://leekduck.com/even
  ts/pokemonspotlighthour2026-11-19/
@@ -430,7 +413,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:minior-showers-leonids-2026
-DTSTAMP:20261101T052008Z
+DTSTAMP:20261102T051907Z
 SUMMARY:[E] Minior Showers: Leonids 2026
 DESCRIPTION:Starts at 17:00\, ends at 23:59.\n\nhttps://leekduck.com/even
  ts/minior-showers-leonids-2026/
@@ -447,7 +430,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:eternamax-eternatus-max-battles-2026
-DTSTAMP:20261101T052008Z
+DTSTAMP:20261102T051907Z
 SUMMARY:[MB] Eternamax 無極汰那 Returns
 DESCRIPTION:Starts at 11:00\, ends at 14:00.\n\nhttps://leekduck.com/even
  ts/eternamax-無極汰那-max-battles-2026/
@@ -464,7 +447,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:november-communityday2026
-DTSTAMP:20261101T052008Z
+DTSTAMP:20261102T051907Z
 SUMMARY:[CD] 駒刀小兵 社群日
 DESCRIPTION:Starts at 14:00\, ends at 17:00.\n\nhttps://leekduck.com/even
  ts/november-communityday2026/
@@ -481,7 +464,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:dynamax-trails-2026
-DTSTAMP:20261101T052008Z
+DTSTAMP:20261102T051907Z
 SUMMARY:[E] 極巨化 Trails
 DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/even
  ts/極巨化-trails-2026/
@@ -498,7 +481,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:max-mondays-2026-11-23
-DTSTAMP:20261101T052008Z
+DTSTAMP:20261102T051907Z
 SUMMARY:[MM] 極巨化 妙喵 during 極巨星期一
 DESCRIPTION:Starts at 06:00\, ends at 21:00.\n\nhttps://leekduck.com/even
  ts/max-mondays-2026-11-23/
@@ -515,7 +498,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:cresselia-darkrai-in-5-star-raid-battles-november-2026
-DTSTAMP:20261101T052008Z
+DTSTAMP:20261102T051907Z
 SUMMARY:[RB] 克雷色利亞 and 達克萊伊 in 5-star 團體戰
 DESCRIPTION:Starts at 06:00\, ends at 22:00.\n\nhttps://leekduck.com/even
  ts/克雷色利亞-達克萊伊-in-5-star-團體戰-battles-november-202
@@ -534,7 +517,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:mega-banette-in-mega-raids-november-2026
-DTSTAMP:20261101T052008Z
+DTSTAMP:20261102T051907Z
 SUMMARY:[RB] 超級 Banette in 超級 團體戰
 DESCRIPTION:Starts at 06:00\, ends at 22:00.\n\nhttps://leekduck.com/even
  ts/超級-banette-in-超級-團體戰-november-2026/
@@ -552,7 +535,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:gbl-twilight-trails_ultra-league_master-league-mega-edition_2026-go-l
  aic-cup
-DTSTAMP:20261101T052008Z
+DTSTAMP:20261102T051907Z
 SUMMARY:[GBL] Ultra League\, Master League: 超級 Edition\, and 2026 GO 
  LAIC Cup | Twilight Trails
 DESCRIPTION:Starts at 21:00\, ends at 21:00.\n\nhttps://leekduck.com/even
@@ -573,7 +556,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:raidhour20261125
-DTSTAMP:20261101T052008Z
+DTSTAMP:20261102T051907Z
 SUMMARY:[RH] 代歐奇希斯 (Normal\, Defense\, Attack\, and Speed Forme
  s) 團體戰約會
 DESCRIPTION:Starts at 18:00\, ends at 19:00.\n\nhttps://leekduck.com/even
@@ -591,7 +574,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:pokemonspotlighthour2026-11-26
-DTSTAMP:20261101T052008Z
+DTSTAMP:20261102T051907Z
 SUMMARY:[PSH] 嗡蝠 聚焦時刻
 DESCRIPTION:Starts at 18:00\, ends at 19:00.\n\nhttps://leekduck.com/even
  ts/pokemonspotlighthour2026-11-26/
@@ -608,7 +591,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:super-mega-raid-day-november-2026
-DTSTAMP:20261101T052008Z
+DTSTAMP:20261102T051907Z
 SUMMARY:[RD] Super 超級 團體戰日
 DESCRIPTION:Starts at 14:00\, ends at 17:00.\n\nhttps://leekduck.com/even
  ts/super-超級-團體戰-day-november-2026/
@@ -625,7 +608,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:twilight-wishes-2026
-DTSTAMP:20261101T052008Z
+DTSTAMP:20261102T051907Z
 SUMMARY:[E] Twilight Wishes
 DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/even
  ts/twilight-wishes-2026/
@@ -642,7 +625,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:max-mondays-2026-11-30
-DTSTAMP:20261101T052008Z
+DTSTAMP:20261102T051907Z
 SUMMARY:[MM] 極巨化 幾何雪花 during 極巨星期一
 DESCRIPTION:Starts at 06:00\, ends at 21:00.\n\nhttps://leekduck.com/even
  ts/max-mondays-2026-11-30/
@@ -659,7 +642,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:season-24-twilight-trails
-DTSTAMP:20261101T052008Z
+DTSTAMP:20261102T051907Z
 SUMMARY:[S] Twilight Trails
 DESCRIPTION:Starts at 10:00\, ends at 10:00.\n\nhttps://leekduck.com/even
  ts/賽季-24-twilight-trails/
@@ -676,7 +659,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:go-pass-november-2026
-DTSTAMP:20261101T052008Z
+DTSTAMP:20261102T051907Z
 SUMMARY:[GP] GO Pass: November
 DESCRIPTION:Starts at 10:00\, ends at 10:00.\n\nhttps://leekduck.com/even
  ts/go-pass-november-2026/
@@ -693,7 +676,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gbl-twilight-trails_master-league_mega-catch-cup-great-league-edition
-DTSTAMP:20261101T052008Z
+DTSTAMP:20261102T051907Z
 SUMMARY:[GBL] Master League and 超級 Catch Cup: Great League Edition | 
  Twilight Trails
 DESCRIPTION:Starts at 21:00\, ends at 21:00.\n\nhttps://leekduck.com/even
@@ -714,7 +697,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:shadow-tornadus-incarnate-forme-in-shadow-raids-november-16-2026
-DTSTAMP:20261101T052008Z
+DTSTAMP:20261102T051907Z
 SUMMARY:[RB] 暗影 龍捲雲 (Incarnate Forme) in 暗影 團體戰
 DESCRIPTION:Starts at 06:00\, ends at 22:00.\n\nhttps://leekduck.com/even
  ts/暗影-龍捲雲-incarnate-forme-in-暗影-團體戰-november-16-2026
@@ -734,7 +717,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:deoxys-normal-defense-attack-speed-formes-in-5-star-raid-battles-nove
  mber-2026
-DTSTAMP:20261101T052008Z
+DTSTAMP:20261102T051907Z
 SUMMARY:[RB] 代歐奇希斯 (Normal\, Defense\, Attack\, and Speed Forme
  s) in 5-star 團體戰
 DESCRIPTION:Starts at 06:00\, ends at 22:00.\n\nhttps://leekduck.com/even
@@ -755,7 +738,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:mega-metagross-in-mega-raids-november-2026
-DTSTAMP:20261101T052008Z
+DTSTAMP:20261102T051907Z
 SUMMARY:[RB] 超級 Metagross in 超級 團體戰
 DESCRIPTION:Starts at 06:00\, ends at 22:00.\n\nhttps://leekduck.com/even
  ts/超級-metagross-in-超級-團體戰-november-2026/
@@ -773,7 +756,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:minior-showers-geminids-2026
-DTSTAMP:20261101T052008Z
+DTSTAMP:20261102T051907Z
 SUMMARY:[E] Minior Showers: Geminids 2026
 DESCRIPTION:Starts at 17:00\, ends at 23:59.\n\nhttps://leekduck.com/even
  ts/minior-showers-geminids-2026/
@@ -790,7 +773,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:pokemon-x-adidas-2026
-DTSTAMP:20261101T052008Z
+DTSTAMP:20261102T051907Z
 SUMMARY:[R] adidas × Pokémon 限時調查
 DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/even
  ts/pokemon-x-adidas-2026/
@@ -807,7 +790,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:pokemon-go-tour-alola-kaohsiung-2027
-DTSTAMP:20261101T052008Z
+DTSTAMP:20261102T051907Z
 SUMMARY:[PGT] Pokémon GO Tour: Alola - Kaohsiung 2027
 DESCRIPTION:Starts at 16:00\, ends at 15:59.\n\nhttps://leekduck.com/even
  ts/pokemon-go-tour-alola-kaohsiung-2027/
@@ -824,7 +807,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:pokemon-go-tour-alola-los-angeles-2027
-DTSTAMP:20261101T052008Z
+DTSTAMP:20261102T051907Z
 SUMMARY:[PGT] Pokémon GO Tour: Alola - Los Angeles 2027
 DESCRIPTION:Starts at 08:00\, ends at 07:59.\n\nhttps://leekduck.com/even
  ts/pokemon-go-tour-alola-los-angeles-2027/
@@ -841,7 +824,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:pokemon-go-tour-alola-global-2027
-DTSTAMP:20261101T052008Z
+DTSTAMP:20261102T051907Z
 SUMMARY:[PGT] Pokémon GO Tour: Alola - 全球 2027
 DESCRIPTION:Starts at 00:00\, ends at 23:59.\n\nhttps://leekduck.com/even
  ts/pokemon-go-tour-alola-全球-2027/
@@ -858,7 +841,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:minior-showers-eta-aquariids-2027
-DTSTAMP:20261101T052008Z
+DTSTAMP:20261102T051907Z
 SUMMARY:[E] Minior Showers: Eta Aquariids 2027
 DESCRIPTION:Starts at 17:00\, ends at 23:59.\n\nhttps://leekduck.com/even
  ts/minior-showers-eta-aquariids-2027/
@@ -875,7 +858,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:minior-showers-southern-delta-aquariids-2027
-DTSTAMP:20261101T052008Z
+DTSTAMP:20261102T051907Z
 SUMMARY:[E] Minior Showers: Southern Delta Aquariids 2027
 DESCRIPTION:Starts at 17:00\, ends at 23:59.\n\nhttps://leekduck.com/even
  ts/minior-showers-southern-delta-aquariids-2027/
@@ -893,7 +876,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:minior-showers-perseids-2027
-DTSTAMP:20261101T052008Z
+DTSTAMP:20261102T051907Z
 SUMMARY:[E] Minior Showers: Perseids 2027
 DESCRIPTION:Starts at 17:00\, ends at 23:59.\n\nhttps://leekduck.com/even
  ts/minior-showers-perseids-2027/
