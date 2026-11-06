@@ -21,19 +21,19 @@ DTSTART:19700101T000000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:super-mega-raid-day-november-2026
-DTSTAMP:20261105T055644Z
-SUMMARY:[RD] Super 超級 團體戰日
+UID:clefable-super-mega-raid-day-2026
+DTSTAMP:20261106T055303Z
+SUMMARY:[RD] Clefable Super 超級 團體戰日
 DESCRIPTION:Starts at 14:00\, ends at 17:00.\n\nhttps://leekduck.com/even
- ts/super-超級-團體戰-day-november-2026/
-URL:https://leekduck.com/events/super-mega-raid-day-november-2026/
-IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/events-default
- -img.jpg
+ ts/clefable-super-超級-團體戰-day-2026/
+URL:https://leekduck.com/events/clefable-super-mega-raid-day-2026/
+IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/clefable-super
+ -mega-raid-day-2026.jpg
 DTSTART;TZID=Asia/Taipei:20261128T140000
 DTEND;TZID=Asia/Taipei:20261128T170000
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:[RD] Super 超級 團體戰日
+DESCRIPTION:[RD] Clefable Super 超級 團體戰日
 TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
