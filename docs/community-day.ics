@@ -22,7 +22,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:november-communityday2026
-DTSTAMP:20261108T052359Z
+DTSTAMP:20261110T064452Z
 SUMMARY:[CD] 駒刀小兵 社群日
 DESCRIPTION:Starts at 14:00\, ends at 17:00.\n\nhttps://leekduck.com/even
  ts/november-communityday2026/
@@ -34,6 +34,70 @@ DTEND;TZID=Asia/Taipei:20261121T170000
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:[CD] 駒刀小兵 社群日
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:december-communityday2026
+DTSTAMP:20261110T064452Z
+SUMMARY:[CD] December 社群日
+DESCRIPTION:Starts at 14:00\, ends at 17:00.\n\nhttps://leekduck.com/even
+ ts/december-communityday2026/
+URL:https://leekduck.com/events/december-communityday2026/
+IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/cd-default.jpg
+DTSTART;TZID=Asia/Taipei:20261212T140000
+DTEND;TZID=Asia/Taipei:20261213T170000
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:[CD] December 社群日
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:january-communitydayclassic2027
+DTSTAMP:20261110T064452Z
+SUMMARY:[CD] January 經典社群日
+DESCRIPTION:Starts at 14:00\, ends at 17:00.\n\nhttps://leekduck.com/even
+ ts/january-communitydayclassic2027/
+URL:https://leekduck.com/events/january-communitydayclassic2027/
+IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/cd-default.jpg
+DTSTART;TZID=Asia/Taipei:20270102T140000
+DTEND;TZID=Asia/Taipei:20270102T170000
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:[CD] January 經典社群日
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:january-communityday2027
+DTSTAMP:20261110T064452Z
+SUMMARY:[CD] January 社群日
+DESCRIPTION:Starts at 14:00\, ends at 17:00.\n\nhttps://leekduck.com/even
+ ts/january-communityday2027/
+URL:https://leekduck.com/events/january-communityday2027/
+IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/cd-default.jpg
+DTSTART;TZID=Asia/Taipei:20270116T140000
+DTEND;TZID=Asia/Taipei:20270116T170000
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:[CD] January 社群日
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:february-communityday2027
+DTSTAMP:20261110T064452Z
+SUMMARY:[CD] February 社群日
+DESCRIPTION:Starts at 14:00\, ends at 17:00.\n\nhttps://leekduck.com/even
+ ts/february-communityday2027/
+URL:https://leekduck.com/events/february-communityday2027/
+IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/cd-default.jpg
+DTSTART;TZID=Asia/Taipei:20270206T140000
+DTEND;TZID=Asia/Taipei:20270206T170000
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:[CD] February 社群日
 TRIGGER:-PT15M
 END:VALARM
 END:VEVENT

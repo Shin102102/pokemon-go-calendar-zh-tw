@@ -22,7 +22,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:clefable-super-mega-raid-day-2026
-DTSTAMP:20261108T052359Z
+DTSTAMP:20261110T064452Z
 SUMMARY:[RD] Clefable Super 超級 團體戰日
 DESCRIPTION:Starts at 14:00\, ends at 17:00.\n\nhttps://leekduck.com/even
  ts/clefable-super-超級-團體戰-day-2026/
@@ -34,6 +34,74 @@ DTEND;TZID=Asia/Taipei:20261128T170000
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:[RD] Clefable Super 超級 團體戰日
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:raid-day-december-2026
+DTSTAMP:20261110T064452Z
+SUMMARY:[RD] 團體戰日
+DESCRIPTION:Starts at 14:00\, ends at 17:00.\n\nhttps://leekduck.com/even
+ ts/團體戰-day-december-2026/
+URL:https://leekduck.com/events/raid-day-december-2026/
+IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/events-default
+ -img.jpg
+DTSTART;TZID=Asia/Taipei:20261219T140000
+DTEND;TZID=Asia/Taipei:20261219T170000
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:[RD] 團體戰日
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:super-mega-raid-day-january-2027
+DTSTAMP:20261110T064452Z
+SUMMARY:[RD] Super 超級 團體戰日
+DESCRIPTION:Starts at 14:00\, ends at 17:00.\n\nhttps://leekduck.com/even
+ ts/super-超級-團體戰-day-january-2027/
+URL:https://leekduck.com/events/super-mega-raid-day-january-2027/
+IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/events-default
+ -img.jpg
+DTSTART;TZID=Asia/Taipei:20270109T140000
+DTEND;TZID=Asia/Taipei:20270109T170000
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:[RD] Super 超級 團體戰日
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:super-mega-raid-day-january-30-2027
+DTSTAMP:20261110T064452Z
+SUMMARY:[RD] Super 超級 團體戰日
+DESCRIPTION:Starts at 14:00\, ends at 17:00.\n\nhttps://leekduck.com/even
+ ts/super-超級-團體戰-day-january-30-2027/
+URL:https://leekduck.com/events/super-mega-raid-day-january-30-2027/
+IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/events-default
+ -img.jpg
+DTSTART;TZID=Asia/Taipei:20270130T140000
+DTEND;TZID=Asia/Taipei:20270130T170000
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:[RD] Super 超級 團體戰日
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:raid-day-february-2027
+DTSTAMP:20261110T064452Z
+SUMMARY:[RD] 團體戰日
+DESCRIPTION:Starts at 14:00\, ends at 17:00.\n\nhttps://leekduck.com/even
+ ts/團體戰-day-february-2027/
+URL:https://leekduck.com/events/raid-day-february-2027/
+IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/events-default
+ -img.jpg
+DTSTART;TZID=Asia/Taipei:20270213T140000
+DTEND;TZID=Asia/Taipei:20270213T170000
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:[RD] 團體戰日
 TRIGGER:-PT15M
 END:VALARM
 END:VEVENT

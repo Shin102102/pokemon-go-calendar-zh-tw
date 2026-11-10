@@ -21,60 +21,30 @@ DTSTART:19700101T000000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:mega-sableye-in-mega-raids-october-2026
-DTSTAMP:20261108T052359Z
-SUMMARY:[RB] 超級 勾魂眼 in 超級 團體戰
-DESCRIPTION:Starts at 06:00\, ends at 22:00.\n\nhttps://leekduck.com/even
- ts/超級-勾魂眼-in-超級-團體戰-october-2026/
-URL:https://leekduck.com/events/mega-sableye-in-mega-raids-october-2026/
-IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/mega-default.j
- pg
-DTSTART;VALUE=DATE:20261028
-DTEND;VALUE=DATE:20261109
+UID:zacian-crowned-sword-zamazenta-crowned-shield-in-5-star-raid-battles-
+ november-2026
+DTSTAMP:20261110T064452Z
+SUMMARY:[RB] 蒼響 (Crowned Sword) and 藏瑪然特 (Crowned Shield) in 
+ 5-star 團體戰
+DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/even
+ ts/蒼響-crowned-sword-藏瑪然特-crowned-shield-in-5-star-團體戰-
+ battles-november-2026/
+URL:https://leekduck.com/events/zacian-crowned-sword-zamazenta-crowned-sh
+ ield-in-5-star-raid-battles-november-2026/
+IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/zacian-and-zam
+ azenta-2.jpg
+DTSTART;VALUE=DATE:20261109
+DTEND;VALUE=DATE:20261114
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:[RB] 超級 勾魂眼 in 超級 團體戰
-TRIGGER:-PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:giratina-altered-forme-in-5-star-raid-battles-november-2026
-DTSTAMP:20261108T052359Z
-SUMMARY:[RB] 騎拉帝納 (Altered Forme) in 5-star 團體戰
-DESCRIPTION:Starts at 06:00\, ends at 22:00.\n\nhttps://leekduck.com/even
- ts/騎拉帝納-altered-forme-in-5-star-團體戰-battles-november-2026/
-URL:https://leekduck.com/events/giratina-altered-forme-in-5-star-raid-bat
- tles-november-2026/
-IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/giratinaaltere
- d.jpg
-DTSTART;VALUE=DATE:20261104
-DTEND;VALUE=DATE:20261109
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:[RB] 騎拉帝納 (Altered Forme) in 5-star 團體戰
-TRIGGER:-PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:shadow-tornadus-incarnate-forme-in-shadow-raids-november-4-2026
-DTSTAMP:20261108T052359Z
-SUMMARY:[RB] 暗影 龍捲雲 (Incarnate Forme) in 暗影 團體戰
-DESCRIPTION:Starts at 06:00\, ends at 22:00.\n\nhttps://leekduck.com/even
- ts/暗影-龍捲雲-incarnate-forme-in-暗影-團體戰-november-4-2026/
-URL:https://leekduck.com/events/shadow-tornadus-incarnate-forme-in-shadow
- -raids-november-4-2026/
-IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/tornadus.jpg
-DTSTART;VALUE=DATE:20261104
-DTEND;VALUE=DATE:20261109
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:[RB] 暗影 龍捲雲 (Incarnate Forme) in 暗影 團體戰
+DESCRIPTION:[RB] 蒼響 (Crowned Sword) and 藏瑪然特 (Crowned Shield)
+  in 5-star 團體戰
 TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:cresselia-darkrai-in-5-star-raid-battles-november-2026
-DTSTAMP:20261108T052359Z
+DTSTAMP:20261110T064452Z
 SUMMARY:[RB] 克雷色利亞 and 達克萊伊 in 5-star 團體戰
 DESCRIPTION:Starts at 06:00\, ends at 22:00.\n\nhttps://leekduck.com/even
  ts/克雷色利亞-達克萊伊-in-5-star-團體戰-battles-november-202
@@ -93,7 +63,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:mega-banette-in-mega-raids-november-2026
-DTSTAMP:20261108T052359Z
+DTSTAMP:20261110T064452Z
 SUMMARY:[RB] 超級 Banette in 超級 團體戰
 DESCRIPTION:Starts at 06:00\, ends at 22:00.\n\nhttps://leekduck.com/even
  ts/超級-banette-in-超級-團體戰-november-2026/
@@ -110,7 +80,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:shadow-tornadus-incarnate-forme-in-shadow-raids-november-16-2026
-DTSTAMP:20261108T052359Z
+DTSTAMP:20261110T064452Z
 SUMMARY:[RB] 暗影 龍捲雲 (Incarnate Forme) in 暗影 團體戰
 DESCRIPTION:Starts at 06:00\, ends at 22:00.\n\nhttps://leekduck.com/even
  ts/暗影-龍捲雲-incarnate-forme-in-暗影-團體戰-november-16-2026
@@ -129,7 +99,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:deoxys-normal-defense-attack-speed-formes-in-5-star-raid-battles-nove
  mber-2026
-DTSTAMP:20261108T052359Z
+DTSTAMP:20261110T064452Z
 SUMMARY:[RB] 代歐奇希斯 (Normal\, Defense\, Attack\, and Speed Forme
  s) in 5-star 團體戰
 DESCRIPTION:Starts at 06:00\, ends at 22:00.\n\nhttps://leekduck.com/even
@@ -150,7 +120,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:mega-metagross-in-mega-raids-november-2026
-DTSTAMP:20261108T052359Z
+DTSTAMP:20261110T064452Z
 SUMMARY:[RB] 超級 Metagross in 超級 團體戰
 DESCRIPTION:Starts at 06:00\, ends at 22:00.\n\nhttps://leekduck.com/even
  ts/超級-metagross-in-超級-團體戰-november-2026/
