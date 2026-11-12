@@ -22,7 +22,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:november-communityday2026
-DTSTAMP:20261111T053059Z
+DTSTAMP:20261112T063645Z
 SUMMARY:[CD] 駒刀小兵 社群日
 DESCRIPTION:Starts at 14:00\, ends at 17:00.\n\nhttps://leekduck.com/even
  ts/november-communityday2026/
@@ -39,7 +39,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:december-communityday2026
-DTSTAMP:20261111T053059Z
+DTSTAMP:20261112T063645Z
 SUMMARY:[CD] December 社群日
 DESCRIPTION:Starts at 14:00\, ends at 17:00.\n\nhttps://leekduck.com/even
  ts/december-communityday2026/
@@ -55,7 +55,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:january-communitydayclassic2027
-DTSTAMP:20261111T053059Z
+DTSTAMP:20261112T063645Z
 SUMMARY:[CD] January 經典社群日
 DESCRIPTION:Starts at 14:00\, ends at 17:00.\n\nhttps://leekduck.com/even
  ts/january-communitydayclassic2027/
@@ -71,7 +71,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:january-communityday2027
-DTSTAMP:20261111T053059Z
+DTSTAMP:20261112T063645Z
 SUMMARY:[CD] January 社群日
 DESCRIPTION:Starts at 14:00\, ends at 17:00.\n\nhttps://leekduck.com/even
  ts/january-communityday2027/
@@ -87,7 +87,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:february-communityday2027
-DTSTAMP:20261111T053059Z
+DTSTAMP:20261112T063645Z
 SUMMARY:[CD] February 社群日
 DESCRIPTION:Starts at 14:00\, ends at 17:00.\n\nhttps://leekduck.com/even
  ts/february-communityday2027/
