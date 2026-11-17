@@ -22,8 +22,8 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:max-mondays-2026-11-16
-DTSTAMP:20261116T054336Z
-SUMMARY:[MM] 極巨星期一: Pokémon to be announced
+DTSTAMP:20261117T072038Z
+SUMMARY:[MM] [Canceled] 極巨星期一
 DESCRIPTION:Starts at 06:00\, ends at 21:00.\n\nhttps://leekduck.com/even
  ts/max-mondays-2026-11-16/
 URL:https://leekduck.com/events/max-mondays-2026-11-16/
@@ -33,13 +33,13 @@ DTSTART;TZID=Asia/Taipei:20261116T060000
 DTEND;TZID=Asia/Taipei:20261116T210000
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:[MM] 極巨星期一: Pokémon to be announced
+DESCRIPTION:[MM] [Canceled] 極巨星期一
 TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:max-mondays-2026-11-23
-DTSTAMP:20261116T054336Z
+DTSTAMP:20261117T072038Z
 SUMMARY:[MM] 極巨化 妙喵 during 極巨星期一
 DESCRIPTION:Starts at 06:00\, ends at 21:00.\n\nhttps://leekduck.com/even
  ts/max-mondays-2026-11-23/
@@ -56,7 +56,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:max-mondays-2026-11-30
-DTSTAMP:20261116T054336Z
+DTSTAMP:20261117T072038Z
 SUMMARY:[MM] 極巨化 幾何雪花 during 極巨星期一
 DESCRIPTION:Starts at 06:00\, ends at 21:00.\n\nhttps://leekduck.com/even
  ts/max-mondays-2026-11-30/
