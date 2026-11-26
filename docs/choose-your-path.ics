@@ -21,19 +21,80 @@ DTSTART:19700101T000000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:choose-your-path-twilight-trails-2026
-DTSTAMP:20260929T050742Z
-SUMMARY:[CYP] Choose Your Path: Twilight Trails
+UID:choose-your-path-daydream-destinations-2026-12-15
+DTSTAMP:20261126T074026Z
+SUMMARY:[CYP] Choose Your Path: Daydream Destinations (December 15\, 2026
+ )
 DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/even
- ts/choose-your-path-twilight-trails-2026/
-URL:https://leekduck.com/events/choose-your-path-twilight-trails-2026/
+ ts/choose-your-path-daydream-destinations-2026-12-15/
+URL:https://leekduck.com/events/choose-your-path-daydream-destinations-20
+ 26-12-15/
 IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/choose-your-pa
- th-twilight-trails-2026.jpg
-DTSTART;VALUE=DATE:20260923
-DTEND;VALUE=DATE:20260929
+ th-daydream-destinations-2026.jpg
+DTSTART;VALUE=DATE:20261215
+DTEND;VALUE=DATE:20261222
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:[CYP] Choose Your Path: Twilight Trails
+DESCRIPTION:[CYP] Choose Your Path: Daydream Destinations (December 15\, 
+ 2026)
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:choose-your-path-daydream-destinations-2027-01-12
+DTSTAMP:20261126T074026Z
+SUMMARY:[CYP] Choose Your Path: Daydream Destinations (January 12\, 2027)
+DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/even
+ ts/choose-your-path-daydream-destinations-2027-01-12/
+URL:https://leekduck.com/events/choose-your-path-daydream-destinations-20
+ 27-01-12/
+IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/choose-your-pa
+ th-daydream-destinations-2026.jpg
+DTSTART;VALUE=DATE:20270112
+DTEND;VALUE=DATE:20270119
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:[CYP] Choose Your Path: Daydream Destinations (January 12\, 2
+ 027)
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:choose-your-path-daydream-destinations-2027-01-26
+DTSTAMP:20261126T074026Z
+SUMMARY:[CYP] Choose Your Path: Daydream Destinations (January 26\, 2027)
+DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/even
+ ts/choose-your-path-daydream-destinations-2027-01-26/
+URL:https://leekduck.com/events/choose-your-path-daydream-destinations-20
+ 27-01-26/
+IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/choose-your-pa
+ th-daydream-destinations-2026.jpg
+DTSTART;VALUE=DATE:20270126
+DTEND;VALUE=DATE:20270202
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:[CYP] Choose Your Path: Daydream Destinations (January 26\, 2
+ 027)
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:choose-your-path-daydream-destinations-2027-02-16
+DTSTAMP:20261126T074026Z
+SUMMARY:[CYP] Choose Your Path: Daydream Destinations (February 16\, 2027
+ )
+DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/even
+ ts/choose-your-path-daydream-destinations-2027-02-16/
+URL:https://leekduck.com/events/choose-your-path-daydream-destinations-20
+ 27-02-16/
+IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/choose-your-pa
+ th-daydream-destinations-2026.jpg
+DTSTART;VALUE=DATE:20270216
+DTEND;VALUE=DATE:20270222
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:[CYP] Choose Your Path: Daydream Destinations (February 16\, 
+ 2027)
 TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
