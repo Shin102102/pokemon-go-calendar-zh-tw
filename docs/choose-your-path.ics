@@ -22,7 +22,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:choose-your-path-daydream-destinations-2026-12-15
-DTSTAMP:20261126T074026Z
+DTSTAMP:20261128T070626Z
 SUMMARY:[CYP] Choose Your Path: Daydream Destinations (December 15\, 2026
  )
 DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/even
@@ -42,7 +42,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:choose-your-path-daydream-destinations-2027-01-12
-DTSTAMP:20261126T074026Z
+DTSTAMP:20261128T070626Z
 SUMMARY:[CYP] Choose Your Path: Daydream Destinations (January 12\, 2027)
 DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/even
  ts/choose-your-path-daydream-destinations-2027-01-12/
@@ -61,7 +61,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:choose-your-path-daydream-destinations-2027-01-26
-DTSTAMP:20261126T074026Z
+DTSTAMP:20261128T070626Z
 SUMMARY:[CYP] Choose Your Path: Daydream Destinations (January 26\, 2027)
 DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/even
  ts/choose-your-path-daydream-destinations-2027-01-26/
@@ -80,7 +80,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:choose-your-path-daydream-destinations-2027-02-16
-DTSTAMP:20261126T074026Z
+DTSTAMP:20261128T070626Z
 SUMMARY:[CYP] Choose Your Path: Daydream Destinations (February 16\, 2027
  )
 DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/even

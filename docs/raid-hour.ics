@@ -21,26 +21,8 @@ DTSTART:19700101T000000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:raidhour20261125
-DTSTAMP:20261126T074026Z
-SUMMARY:[RH] 代歐奇希斯 (Normal\, Defense\, Attack\, and Speed Forme
- s) 團體戰約會
-DESCRIPTION:Starts at 18:00\, ends at 19:00.\n\nhttps://leekduck.com/even
- ts/raidhour20261125/
-URL:https://leekduck.com/events/raidhour20261125/
-IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/raidhour.jpg
-DTSTART;TZID=Asia/Taipei:20261125T180000
-DTEND;TZID=Asia/Taipei:20261125T190000
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:[RH] 代歐奇希斯 (Normal\, Defense\, Attack\, and Speed F
- ormes) 團體戰約會
-TRIGGER:-PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:raidhour20261202
-DTSTAMP:20261126T074026Z
+DTSTAMP:20261128T070626Z
 SUMMARY:[RH] 雷吉鐸拉戈 團體戰約會
 DESCRIPTION:Starts at 18:00\, ends at 19:00.\n\nhttps://leekduck.com/even
  ts/raidhour20261202/
@@ -56,7 +38,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:raidhour20261209
-DTSTAMP:20261126T074026Z
+DTSTAMP:20261128T070626Z
 SUMMARY:[RH] Unannounced 團體戰約會
 DESCRIPTION:Starts at 18:00\, ends at 19:00.\n\nhttps://leekduck.com/even
  ts/raidhour20261209/
@@ -72,7 +54,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:raidhour20261216
-DTSTAMP:20261126T074026Z
+DTSTAMP:20261128T070626Z
 SUMMARY:[RH] 鳳王 團體戰約會
 DESCRIPTION:Starts at 18:00\, ends at 19:00.\n\nhttps://leekduck.com/even
  ts/raidhour20261216/
@@ -88,7 +70,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:raidhour20261223
-DTSTAMP:20261126T074026Z
+DTSTAMP:20261128T070626Z
 SUMMARY:[RH] 洛奇亞 團體戰約會
 DESCRIPTION:Starts at 18:00\, ends at 19:00.\n\nhttps://leekduck.com/even
  ts/raidhour20261223/
@@ -104,7 +86,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:raidhour20261230
-DTSTAMP:20261126T074026Z
+DTSTAMP:20261128T070626Z
 SUMMARY:[RH] 龍捲雲 (Therian Forme)\, 雷電雲 (Therian Forme)\, and 
  土地雲 (Therian Forme) 團體戰約會
 DESCRIPTION:Starts at 18:00\, ends at 19:00.\n\nhttps://leekduck.com/even
